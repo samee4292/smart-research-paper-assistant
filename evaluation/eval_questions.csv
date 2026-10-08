@@ -1,0 +1,61 @@
+question,expected_intent
+What would you tell a colleague who has not read the article?,SUMMARY
+Bring together the motivation and contribution of the whole investigation.,SUMMARY
+Can you give me the broad picture without dwelling on individual experiments?,SUMMARY
+What should go into a short introduction to this publication?,SUMMARY
+Describe the work from its starting problem to its overall conclusion.,SUMMARY
+What is the through-line connecting the sections of this paper?,SUMMARY
+Capture the research as a whole for a reading group.,SUMMARY
+What are the essential ideas someone should take away from the entire article?,SUMMARY
+How would you pitch the authors' contribution in sixty seconds?,SUMMARY
+Give me a compact account that covers both the aim and the main findings.,SUMMARY
+Where do the adaptive schedule and the fixed timetable diverge?,COMPARISON
+Are the supervised and unsupervised versions making the same assumptions?,COMPARISON
+What sets the two candidate systems apart in this article?,COMPARISON
+In what respects are the findings of the two teams consistent?,COMPARISON
+Would you contrast the resource demands of these alternatives?,COMPARISON
+Which distinctions matter when choosing between the proposed models?,COMPARISON
+What stays the same and what changes across the two study designs?,COMPARISON
+How do the authors' explanation and the rival explanation line up?,COMPARISON
+Do the two approaches have similar blind spots?,COMPARISON
+What separates the fixed planner from the adaptive planner?,COMPARISON
+How did the researchers turn the raw records into the analyzed dataset?,METHODOLOGY
+What happened between recruiting volunteers and computing the final estimates?,METHODOLOGY
+Which steps were followed when fitting and validating the predictor?,METHODOLOGY
+How was the study arranged to test the researchers' hypothesis?,METHODOLOGY
+What did the team do to obtain reliable sensor readings?,METHODOLOGY
+How were learning rates and batch sizes chosen for the training runs?,METHODOLOGY
+What was done to measure the system's performance?,METHODOLOGY
+Which operations transformed the collected observations before testing?,METHODOLOGY
+How did the investigators decide who received the intervention?,METHODOLOGY
+What sequence of actions would reproduce their evaluation?,METHODOLOGY
+How well did the proposed system perform?,RESULTS
+What improvement was observed over the baseline?,RESULTS
+What numbers did the researchers report?,RESULTS
+What performance did the system achieve?,RESULTS
+Was the predictor effective on examples it had not seen?,RESULTS
+How much better were the scores after introducing the new component?,RESULTS
+What happened to retention after the intervention?,RESULTS
+What did they actually obtain at the end of the trial?,RESULTS
+Did the proposed approach deliver the claimed benefit in the measurements?,RESULTS
+What did the adaptive system achieve on the final assessment?,RESULTS
+Where does the approach struggle?,LIMITATIONS
+What problems remain unresolved?,LIMITATIONS
+What would stop these findings from applying to a different setting?,LIMITATIONS
+Where should readers be cautious about the authors' claims?,LIMITATIONS
+What has not yet been demonstrated convincingly?,LIMITATIONS
+Which circumstances would undermine the proposed solution?,LIMITATIONS
+What keeps this system from being ready for everyday use?,LIMITATIONS
+Which parts of the argument still rest on uncertain evidence?,LIMITATIONS
+What could go wrong when this technique encounters unfamiliar inputs?,LIMITATIONS
+Why might the observed benefit not last beyond this trial?,LIMITATIONS
+When the paper says mastery what is it referring to?,DEFINITION
+What do the authors mean by an adaptive study schedule?,DEFINITION
+Could you unpack the phrase delayed retention test?,DEFINITION
+How should I interpret the term distributional robustness here?,DEFINITION
+What counts as a negative control in their terminology?,DEFINITION
+What idea is captured by the label sample efficiency?,DEFINITION
+In this article what is the concept behind active learning?,DEFINITION
+What does the notation for conditional independence signify?,DEFINITION
+What are the researchers calling a fixed planning policy?,DEFINITION
+Can you clarify the sense in which the word calibration is used?,DEFINITION

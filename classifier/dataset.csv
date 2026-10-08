@@ -1,0 +1,391 @@
+text,intent
+Summarize the main findings of this paper.,SUMMARY
+What is this paper about?,SUMMARY
+Give me a brief overview of the study.,SUMMARY
+What are the central ideas in this article?,SUMMARY
+Explain the paper in a few sentences.,SUMMARY
+What should I remember after reading this research?,SUMMARY
+Can you outline the overall contribution?,SUMMARY
+Describe the big picture of this work.,SUMMARY
+Provide a concise account of the entire investigation.,SUMMARY
+What story does the paper tell from start to finish?,SUMMARY
+Give a high-level explanation of the authors' argument.,SUMMARY
+What is the main message of the publication?,SUMMARY
+Condense the research into its key takeaways.,SUMMARY
+Tell me the essential points without the technical details.,SUMMARY
+How would you describe this study to a new reader?,SUMMARY
+Write a short digest of the article.,SUMMARY
+What broad problem and contribution does the paper present?,SUMMARY
+Outline the purpose and conclusions of the work.,SUMMARY
+Give me an accessible introduction to this research.,SUMMARY
+What does the article try to establish overall?,SUMMARY
+Present the study's highlights in a compact form.,SUMMARY
+What are the major themes running through this paper?,SUMMARY
+Explain why the work matters in a short overview.,SUMMARY
+Reduce the paper to its most important ideas.,SUMMARY
+What is the gist of the authors' investigation?,SUMMARY
+Walk me through the article at a high level.,SUMMARY
+Describe the research question and overall answer briefly.,SUMMARY
+What does the reader learn from this publication as a whole?,SUMMARY
+Give an executive overview of the research.,SUMMARY
+How can this work be introduced in a short paragraph?,SUMMARY
+What is the overarching conclusion of the article?,SUMMARY
+Capture the essence of the proposed contribution.,SUMMARY
+Provide a quick recap of the study's motivation and findings.,SUMMARY
+What is the central claim supported by this work?,SUMMARY
+Give me the main points for a literature review entry.,SUMMARY
+Explain the scope of this article in plain language.,SUMMARY
+What is the paper's overall thesis?,SUMMARY
+Distill the work into a short abstract-style description.,SUMMARY
+Which ideas best represent the whole study?,SUMMARY
+What would a one-minute presentation of this paper cover?,SUMMARY
+Help me understand the article before reading it in detail.,SUMMARY
+What are the broad lessons from the research?,SUMMARY
+Outline the investigation without focusing on a single section.,SUMMARY
+What is the overall significance of the reported work?,SUMMARY
+Give a compact description of the problem and proposed solution.,SUMMARY
+What are the key contributions across the paper?,SUMMARY
+Describe the main research narrative.,SUMMARY
+What is the takeaway from the article as a whole?,SUMMARY
+Can you recap this paper for my reading notes?,SUMMARY
+Explain the authors' contribution in a nutshell.,SUMMARY
+Compare the approaches used in these two papers.,COMPARISON
+How do the results of paper A differ from paper B?,COMPARISON
+What distinguishes the two proposed models?,COMPARISON
+Which assumptions are shared by both studies?,COMPARISON
+Contrast the datasets used by the two teams.,COMPARISON
+How does this method relate to the earlier baseline?,COMPARISON
+Where do the authors agree with the previous publication?,COMPARISON
+What are the similarities between these experiments?,COMPARISON
+Which technique achieves better accuracy than the other?,COMPARISON
+How do the evaluation protocols vary across the papers?,COMPARISON
+Explain the trade-offs between the two architectures.,COMPARISON
+Does study A require more computation than study B?,COMPARISON
+What changed between the original method and this extension?,COMPARISON
+How are the conclusions of these articles alike?,COMPARISON
+Set the proposed algorithm alongside the conventional approach.,COMPARISON
+Which paper uses the larger training corpus?,COMPARISON
+How do the two surveys organize the same literature differently?,COMPARISON
+What makes the newer model distinct from its predecessor?,COMPARISON
+Are the theoretical frameworks compatible across these studies?,COMPARISON
+Contrast the reported failure cases of both systems.,COMPARISON
+How does centralized training stack up against federated training here?,COMPARISON
+Which of the two papers offers stronger evidence for the claim?,COMPARISON
+What aspects of the experimental design are common to both articles?,COMPARISON
+How do supervised and self-supervised variants differ in this work?,COMPARISON
+What differences exist between the control and treatment procedures?,COMPARISON
+Do both studies interpret the same phenomenon in the same way?,COMPARISON
+Identify where the two proposed solutions diverge.,COMPARISON
+How does the lightweight variant perform relative to the full model?,COMPARISON
+Which technique is more robust under the same test conditions?,COMPARISON
+What separates the explanations offered by these authors?,COMPARISON
+Compare the sample selection strategies across the studies.,COMPARISON
+How do the papers handle missing observations differently?,COMPARISON
+What do these algorithms have in common?,COMPARISON
+Which approach needs fewer labeled examples than its counterpart?,COMPARISON
+How does the new estimator differ from the standard one?,COMPARISON
+Contrast the evidence for the competing hypotheses.,COMPARISON
+Is the improvement larger in paper A or paper B?,COMPARISON
+How do the privacy guarantees vary between these systems?,COMPARISON
+What are the relative strengths of the two proposals?,COMPARISON
+How do the implementation choices differ across the articles?,COMPARISON
+Which study reports the lower error rate under matching conditions?,COMPARISON
+What common conclusions emerge from the three papers?,COMPARISON
+Explain how the neural approach differs from the statistical baseline.,COMPARISON
+How similar are the populations examined in these investigations?,COMPARISON
+What separates the two definitions of fairness used here?,COMPARISON
+Which of these methods scales better as the dataset grows?,COMPARISON
+Contrast the resource demands of the candidate models.,COMPARISON
+How do the validation settings line up across the papers?,COMPARISON
+What is different about the proposed loss compared with cross entropy?,COMPARISON
+Where does this article depart from related work?,COMPARISON
+What methodology did the researchers use?,METHODOLOGY
+How was the experiment conducted?,METHODOLOGY
+Describe the steps used to train the model.,METHODOLOGY
+How did the authors collect their observations?,METHODOLOGY
+What procedure was followed to select participants?,METHODOLOGY
+Which preprocessing operations were applied to the data?,METHODOLOGY
+How were the experimental groups assigned?,METHODOLOGY
+Explain the setup of the evaluation pipeline.,METHODOLOGY
+What instruments were used to obtain measurements?,METHODOLOGY
+How did the team implement the proposed algorithm?,METHODOLOGY
+Which optimizer and learning schedule were used?,METHODOLOGY
+What was the process for labeling the dataset?,METHODOLOGY
+How were the interviews carried out?,METHODOLOGY
+Describe the architecture used in the experiment.,METHODOLOGY
+Which statistical tests were applied to the observations?,METHODOLOGY
+How did the researchers control for confounding variables?,METHODOLOGY
+What sampling strategy was employed?,METHODOLOGY
+How were training and testing examples separated?,METHODOLOGY
+What steps would be needed to reproduce the experiment?,METHODOLOGY
+Explain how the researchers constructed the simulation.,METHODOLOGY
+Which hyperparameters were chosen during model development?,METHODOLOGY
+How did the authors extract features from raw recordings?,METHODOLOGY
+What criteria determined whether a record was included?,METHODOLOGY
+Describe the protocol for measuring inference time.,METHODOLOGY
+How were the baseline models configured?,METHODOLOGY
+What was the order of operations in the proposed workflow?,METHODOLOGY
+How did the team perform the ablation experiments?,METHODOLOGY
+Which data augmentation techniques were applied?,METHODOLOGY
+How was the questionnaire administered?,METHODOLOGY
+What computational environment supported the experiments?,METHODOLOGY
+Explain the procedure for estimating the parameters.,METHODOLOGY
+How were the sensor signals filtered before analysis?,METHODOLOGY
+What method was used to handle missing values?,METHODOLOGY
+How did the researchers choose the evaluation metrics?,METHODOLOGY
+Describe the cross-validation design.,METHODOLOGY
+How were the images prepared before entering the network?,METHODOLOGY
+What rules governed the construction of the benchmark?,METHODOLOGY
+How did the team organize the longitudinal follow-up?,METHODOLOGY
+Which loss function guided model training?,METHODOLOGY
+What procedure generated the synthetic samples?,METHODOLOGY
+How were the optimization constraints enforced?,METHODOLOGY
+Describe the implementation of the attention mechanism.,METHODOLOGY
+How did the authors estimate uncertainty in their measurements?,METHODOLOGY
+What controls were included in the laboratory setup?,METHODOLOGY
+How were the raw survey responses coded for analysis?,METHODOLOGY
+Which stopping criterion ended training?,METHODOLOGY
+What experimental design was adopted to test the hypothesis?,METHODOLOGY
+How did the proposed pipeline transform inputs into predictions?,METHODOLOGY
+Describe the process used to verify annotation quality.,METHODOLOGY
+How did the authors calibrate the measuring equipment?,METHODOLOGY
+What were the main results?,RESULTS
+What performance did the model achieve?,RESULTS
+Which outcomes were observed in the experiment?,RESULTS
+What accuracy was reported on the test set?,RESULTS
+How much did the error rate decrease?,RESULTS
+What did the measurements reveal?,RESULTS
+Were the observed effects statistically significant?,RESULTS
+Which hypothesis was supported by the evidence?,RESULTS
+What numerical findings appear in the evaluation table?,RESULTS
+How did the participants respond to the intervention?,RESULTS
+What was the measured improvement in recall?,RESULTS
+Which trends emerged from the collected observations?,RESULTS
+Did the experiment confirm the predicted relationship?,RESULTS
+What inference speed was achieved?,RESULTS
+How large was the reported effect size?,RESULTS
+Which configuration produced the highest score?,RESULTS
+What was discovered during the ablation study?,RESULTS
+How many errors did the system make on unseen data?,RESULTS
+What did the final analysis show about robustness?,RESULTS
+Which factors were associated with increased performance?,RESULTS
+What values were obtained for precision and F1?,RESULTS
+Did the treatment change the measured behavior?,RESULTS
+What correlations were found in the survey data?,RESULTS
+How did the model behave under noisy inputs?,RESULTS
+What confidence intervals accompanied the estimates?,RESULTS
+Which outcomes changed after the intervention?,RESULTS
+What was the observed latency of the proposed system?,RESULTS
+Did adding more training examples improve the score?,RESULTS
+What did the authors find about the scaling behavior?,RESULTS
+Which variables had a significant influence on the outcome?,RESULTS
+How well did the algorithm generalize to the held-out domain?,RESULTS
+What was the measured reduction in energy consumption?,RESULTS
+Which conclusions were drawn from the experimental evidence?,RESULTS
+Did the predicted pattern appear in the real-world observations?,RESULTS
+What were the final parameter estimates?,RESULTS
+Which themes emerged from the qualitative analysis?,RESULTS
+What changes in sample behavior were recorded?,RESULTS
+How successful was the model at detecting rare events?,RESULTS
+What evidence supported the authors' central hypothesis?,RESULTS
+What did the sensitivity analysis demonstrate?,RESULTS
+How much memory did the evaluated system consume?,RESULTS
+What was the observed relationship between exposure and response?,RESULTS
+Did the proposed intervention produce the expected benefit?,RESULTS
+Which benchmark scores were obtained in the final run?,RESULTS
+What differences in outcomes were statistically meaningful?,RESULTS
+How did performance change when the input distribution shifted?,RESULTS
+What did the researchers learn from the follow-up measurements?,RESULTS
+Which experimental outcome was unexpected?,RESULTS
+What was the estimated magnitude of the association?,RESULTS
+What does the figure show about the observed error trend?,RESULTS
+What limitations did the authors identify?,LIMITATIONS
+What weaknesses does the proposed approach have?,LIMITATIONS
+Where does the method fail to work reliably?,LIMITATIONS
+What caveats should a reader keep in mind?,LIMITATIONS
+Which assumptions restrict the conclusions?,LIMITATIONS
+What remains unresolved after this study?,LIMITATIONS
+Why might the findings not transfer to other populations?,LIMITATIONS
+What threats to validity are discussed?,LIMITATIONS
+Which practical obstacles hinder deployment of the method?,LIMITATIONS
+What does the approach overlook?,LIMITATIONS
+Under what conditions might the model break down?,LIMITATIONS
+How could the small sample affect the reliability of the claims?,LIMITATIONS
+What biases may have influenced the observations?,LIMITATIONS
+Which shortcomings are acknowledged in the discussion?,LIMITATIONS
+What questions were left unanswered by the experiment?,LIMITATIONS
+Why is the evidence insufficient for a broader conclusion?,LIMITATIONS
+What aspects of the evaluation reduce confidence in generalization?,LIMITATIONS
+Which failure modes are mentioned by the authors?,LIMITATIONS
+What constraints limit the method's applicability?,LIMITATIONS
+What potential sources of error were not eliminated?,LIMITATIONS
+Why might the reported improvement be difficult to reproduce?,LIMITATIONS
+What weaknesses arise from using a single benchmark?,LIMITATIONS
+Which real-world conditions were excluded from the study?,LIMITATIONS
+What prevents the approach from handling very long inputs?,LIMITATIONS
+Where is the authors' argument most vulnerable?,LIMITATIONS
+What trade-offs undermine the usefulness of the proposal?,LIMITATIONS
+Which factors could invalidate the conclusions?,LIMITATIONS
+What is missing from the current experimental evidence?,LIMITATIONS
+How does dependence on labeled data constrain this method?,LIMITATIONS
+What unresolved problems are suggested for future work?,LIMITATIONS
+Which cases fall outside the scope of the proposed solution?,LIMITATIONS
+What risks arise from the data collection choices?,LIMITATIONS
+Why might the evaluation overestimate real-world performance?,LIMITATIONS
+What weaknesses result from the simplifying assumptions?,LIMITATIONS
+Which parts of the study need stronger validation?,LIMITATIONS
+What prevents the model from being applied to a new domain?,LIMITATIONS
+What uncertainties remain about the reported effect?,LIMITATIONS
+Which edge cases are not adequately addressed?,LIMITATIONS
+What methodological concerns do the authors acknowledge?,LIMITATIONS
+Why does the proposed solution require caution in practice?,LIMITATIONS
+What weaknesses are caused by incomplete measurements?,LIMITATIONS
+Which aspects of the dataset make the findings less representative?,LIMITATIONS
+What obstacles remain before the technique is broadly useful?,LIMITATIONS
+How might selection bias compromise the study?,LIMITATIONS
+What does the research fail to establish?,LIMITATIONS
+Which computational constraints restrict the system?,LIMITATIONS
+What shortcomings motivate the recommended future experiments?,LIMITATIONS
+Why might the claimed benefits disappear outside the test setting?,LIMITATIONS
+What gaps remain in the authors' analysis?,LIMITATIONS
+Which assumptions are unrealistic for practical use?,LIMITATIONS
+What is federated learning?,DEFINITION
+How do the authors define transfer learning?,DEFINITION
+What does domain adaptation mean in this paper?,DEFINITION
+Explain the term contrastive learning.,DEFINITION
+What is meant by statistical power?,DEFINITION
+How is fairness defined in the study?,DEFINITION
+What does the acronym AUROC stand for?,DEFINITION
+What is a latent representation?,DEFINITION
+Explain what the authors mean by generalization.,DEFINITION
+What constitutes a confounding variable?,DEFINITION
+How is calibration understood in this work?,DEFINITION
+What is the meaning of self-attention?,DEFINITION
+Define the concept of distribution shift.,DEFINITION
+What does identifiability refer to here?,DEFINITION
+How do the authors describe a causal effect?,DEFINITION
+What is meant by a counterfactual observation?,DEFINITION
+Explain the notion of model robustness.,DEFINITION
+What does zero-shot evaluation mean?,DEFINITION
+How is a false positive defined?,DEFINITION
+What is the term inductive bias referring to?,DEFINITION
+Explain the meaning of epistemic uncertainty.,DEFINITION
+What is an embedding in the authors' terminology?,DEFINITION
+What does the paper mean by a control group?,DEFINITION
+How is precision defined for this task?,DEFINITION
+What is a confidence interval?,DEFINITION
+Explain the concept of differential privacy.,DEFINITION
+What does feature disentanglement mean?,DEFINITION
+How do the authors define an outlier?,DEFINITION
+What is meant by an ablation study?,DEFINITION
+What does the symbol for expected risk represent?,DEFINITION
+Explain what a surrogate objective is.,DEFINITION
+What is the meaning of sample efficiency?,DEFINITION
+How is the term reproducibility used in this article?,DEFINITION
+What does multimodal learning refer to?,DEFINITION
+What is a propensity score?,DEFINITION
+Explain the notion of concept drift.,DEFINITION
+What is meant by weak supervision?,DEFINITION
+How does the paper characterize a spurious correlation?,DEFINITION
+What does sensitivity mean as a diagnostic metric?,DEFINITION
+What is the concept of invariant features?,DEFINITION
+Explain the authors' use of the term sparsity.,DEFINITION
+What is a decision boundary?,DEFINITION
+How is mutual information defined here?,DEFINITION
+What does a stationary process mean?,DEFINITION
+What is the meaning of a prior distribution?,DEFINITION
+Explain what the paper calls label leakage.,DEFINITION
+What is meant by hierarchical clustering?,DEFINITION
+How do the authors define treatment compliance?,DEFINITION
+What does uncertainty quantification refer to?,DEFINITION
+Explain the concept of representation collapse.,DEFINITION
+Give me a short account of the work that I can share at journal club.,SUMMARY
+Explain the overall contribution without walking through each experiment.,SUMMARY
+What should a reader understand about the paper before examining its tables?,SUMMARY
+How would you introduce the investigation to someone outside the field?,SUMMARY
+Describe the full research effort rather than one particular test.,SUMMARY
+Tell me the central problem and how the article addresses it.,SUMMARY
+What connects the motivation to the eventual conclusion in this work?,SUMMARY
+Could you put the paper's broad argument into a short paragraph?,SUMMARY
+What are the ideas that tie this investigation together?,SUMMARY
+Recap the authors' purpose and contribution for a seminar handout.,SUMMARY
+Give a bird's-eye account of the publication with minimal procedural detail.,SUMMARY
+What does the whole project add to our understanding of this topic?,SUMMARY
+Describe the paper's contribution for the opening slide of a presentation.,SUMMARY
+What is the overall account the authors offer of the problem?,SUMMARY
+Explain the investigation as a complete piece of research.,SUMMARY
+How do rule-based and learned scheduling policies handle changing workloads differently?,COMPARISON
+Which assumptions separate the batch approach from the online alternative?,COMPARISON
+What makes the first experiment distinct from the replication?,COMPARISON
+How are the static controller and the dynamic controller alike?,COMPARISON
+What trade-offs distinguish the compact network from the larger version?,COMPARISON
+How do the two papers' claims about robustness fit together?,COMPARISON
+Do the candidate methods respond differently to missing observations?,COMPARISON
+What is shared by the two interventions and what is unique to each?,COMPARISON
+Contrast the benefits and burdens of the centralized and distributed designs.,COMPARISON
+How do the earlier and later studies differ in what they conclude?,COMPARISON
+What separates the symbolic system from the neural system in this study?,COMPARISON
+Which weaknesses are common to both tested approaches?,COMPARISON
+Are the two proposed definitions of reliability consistent with one another?,COMPARISON
+How does the individualized policy differ from the uniform policy?,COMPARISON
+What distinguishes the rolling schedule from the unchanging schedule?,COMPARISON
+How did the team arrange to assess the effectiveness of the intervention?,METHODOLOGY
+Describe how performance measurements were obtained during the trial.,METHODOLOGY
+What protocol was used to establish the reported accuracy?,METHODOLOGY
+How did the researchers set up the tests of the system's effectiveness?,METHODOLOGY
+Which steps led from enrolling subjects to analyzing their responses?,METHODOLOGY
+What did the investigators do before calculating the treatment effect?,METHODOLOGY
+How would another team repeat the procedure for scoring the predictor?,METHODOLOGY
+Explain the operations used to evaluate the final trained network.,METHODOLOGY
+How were score differences between treatment groups computed?,METHODOLOGY
+Describe the procedure that generated the benchmark numbers.,METHODOLOGY
+What workflow did the authors follow to assess reliability?,METHODOLOGY
+How did the team implement the dynamic task selection mechanism?,METHODOLOGY
+Which sampling and analysis decisions produced the estimates in the paper?,METHODOLOGY
+How were measurements gathered and prepared for statistical analysis?,METHODOLOGY
+What experimental arrangement was used to test whether the system worked?,METHODOLOGY
+How effective was the proposed predictor when it was tested?,RESULTS
+What level of performance did the scheduling system reach?,RESULTS
+What accuracy did the dynamic controller obtain on the final test?,RESULTS
+How successful was the personalized recommendation system?,RESULTS
+What measurable gains followed the introduction of the proposed method?,RESULTS
+What values did the team observe after completing the experiment?,RESULTS
+What did the completed trial reveal about the intervention's effectiveness?,RESULTS
+How high were the final scores achieved by the scheduling algorithm?,RESULTS
+What did the proposed learner accomplish on unseen examples?,RESULTS
+What improvement over the reference score was recorded?,RESULTS
+Which numerical outcomes were obtained after the model was evaluated?,RESULTS
+What benefit was actually observed for participants receiving the treatment?,RESULTS
+What did the test show about how well the adaptive controller worked?,RESULTS
+How much did the measured score rise relative to the initial baseline?,RESULTS
+What results did the authors obtain after the last assessment?,RESULTS
+What barriers keep the technique from routine practical use?,LIMITATIONS
+Why should we hesitate before applying the system outside the study?,LIMITATIONS
+What still stands in the way of reliable operation?,LIMITATIONS
+What prevents the authors from claiming that the benefits will persist?,LIMITATIONS
+Which important situations were not tested by this investigation?,LIMITATIONS
+What risks arise if the method is used without further validation?,LIMITATIONS
+Where does the evidence leave room for doubt?,LIMITATIONS
+What might cause the approach to stop being useful in practice?,LIMITATIONS
+What remains uncertain about applying the intervention to different people?,LIMITATIONS
+What does the available evidence not allow us to conclude?,LIMITATIONS
+Why is the current version not yet suitable for widespread adoption?,LIMITATIONS
+What unresolved issues constrain the system's usefulness?,LIMITATIONS
+What could undermine the claims once conditions change?,LIMITATIONS
+Which missing tests leave the proposed solution vulnerable?,LIMITATIONS
+What obstacles would have to be addressed before everyday adoption?,LIMITATIONS
+What concept does the phrase predictive uncertainty describe?,DEFINITION
+Explain what is being named by the term personalized scheduling.,DEFINITION
+What are the authors referring to when they write knowledge retention?,DEFINITION
+Unpack the phrase out-of-distribution evaluation as it is used here.,DEFINITION
+What idea lies behind the label task mastery?,DEFINITION
+How should the expression reference policy be understood in this article?,DEFINITION
+What counts as a valid observation in the paper's terminology?,DEFINITION
+What do the researchers call an individualized intervention?,DEFINITION
+Explain the sense of the word adaptation in the proposed framework.,DEFINITION
+What does the label effective sample size denote?,DEFINITION
+What is intended by the phrase predictive calibration?,DEFINITION
+Which concept is represented by the term surrogate endpoint?,DEFINITION
+What are the authors calling a static policy?,DEFINITION
+Can you clarify what the notation for expected utility signifies?,DEFINITION
+What does the expression measurement invariance mean to the researchers?,DEFINITION

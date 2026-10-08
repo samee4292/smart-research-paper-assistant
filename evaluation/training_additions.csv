@@ -1,0 +1,91 @@
+text,intent
+Give me a short account of the work that I can share at journal club.,SUMMARY
+Explain the overall contribution without walking through each experiment.,SUMMARY
+What should a reader understand about the paper before examining its tables?,SUMMARY
+How would you introduce the investigation to someone outside the field?,SUMMARY
+Describe the full research effort rather than one particular test.,SUMMARY
+Tell me the central problem and how the article addresses it.,SUMMARY
+What connects the motivation to the eventual conclusion in this work?,SUMMARY
+Could you put the paper's broad argument into a short paragraph?,SUMMARY
+What are the ideas that tie this investigation together?,SUMMARY
+Recap the authors' purpose and contribution for a seminar handout.,SUMMARY
+Give a bird's-eye account of the publication with minimal procedural detail.,SUMMARY
+What does the whole project add to our understanding of this topic?,SUMMARY
+Describe the paper's contribution for the opening slide of a presentation.,SUMMARY
+What is the overall account the authors offer of the problem?,SUMMARY
+Explain the investigation as a complete piece of research.,SUMMARY
+How do rule-based and learned scheduling policies handle changing workloads differently?,COMPARISON
+Which assumptions separate the batch approach from the online alternative?,COMPARISON
+What makes the first experiment distinct from the replication?,COMPARISON
+How are the static controller and the dynamic controller alike?,COMPARISON
+What trade-offs distinguish the compact network from the larger version?,COMPARISON
+How do the two papers' claims about robustness fit together?,COMPARISON
+Do the candidate methods respond differently to missing observations?,COMPARISON
+What is shared by the two interventions and what is unique to each?,COMPARISON
+Contrast the benefits and burdens of the centralized and distributed designs.,COMPARISON
+How do the earlier and later studies differ in what they conclude?,COMPARISON
+What separates the symbolic system from the neural system in this study?,COMPARISON
+Which weaknesses are common to both tested approaches?,COMPARISON
+Are the two proposed definitions of reliability consistent with one another?,COMPARISON
+How does the individualized policy differ from the uniform policy?,COMPARISON
+What distinguishes the rolling schedule from the unchanging schedule?,COMPARISON
+How did the team arrange to assess the effectiveness of the intervention?,METHODOLOGY
+Describe how performance measurements were obtained during the trial.,METHODOLOGY
+What protocol was used to establish the reported accuracy?,METHODOLOGY
+How did the researchers set up the tests of the system's effectiveness?,METHODOLOGY
+Which steps led from enrolling subjects to analyzing their responses?,METHODOLOGY
+What did the investigators do before calculating the treatment effect?,METHODOLOGY
+How would another team repeat the procedure for scoring the predictor?,METHODOLOGY
+Explain the operations used to evaluate the final trained network.,METHODOLOGY
+How were score differences between treatment groups computed?,METHODOLOGY
+Describe the procedure that generated the benchmark numbers.,METHODOLOGY
+What workflow did the authors follow to assess reliability?,METHODOLOGY
+How did the team implement the dynamic task selection mechanism?,METHODOLOGY
+Which sampling and analysis decisions produced the estimates in the paper?,METHODOLOGY
+How were measurements gathered and prepared for statistical analysis?,METHODOLOGY
+What experimental arrangement was used to test whether the system worked?,METHODOLOGY
+How effective was the proposed predictor when it was tested?,RESULTS
+What level of performance did the scheduling system reach?,RESULTS
+What accuracy did the dynamic controller obtain on the final test?,RESULTS
+How successful was the personalized recommendation system?,RESULTS
+What measurable gains followed the introduction of the proposed method?,RESULTS
+What values did the team observe after completing the experiment?,RESULTS
+What did the completed trial reveal about the intervention's effectiveness?,RESULTS
+How high were the final scores achieved by the scheduling algorithm?,RESULTS
+What did the proposed learner accomplish on unseen examples?,RESULTS
+What improvement over the reference score was recorded?,RESULTS
+Which numerical outcomes were obtained after the model was evaluated?,RESULTS
+What benefit was actually observed for participants receiving the treatment?,RESULTS
+What did the test show about how well the adaptive controller worked?,RESULTS
+How much did the measured score rise relative to the initial baseline?,RESULTS
+What results did the authors obtain after the last assessment?,RESULTS
+What barriers keep the technique from routine practical use?,LIMITATIONS
+Why should we hesitate before applying the system outside the study?,LIMITATIONS
+What still stands in the way of reliable operation?,LIMITATIONS
+What prevents the authors from claiming that the benefits will persist?,LIMITATIONS
+Which important situations were not tested by this investigation?,LIMITATIONS
+What risks arise if the method is used without further validation?,LIMITATIONS
+Where does the evidence leave room for doubt?,LIMITATIONS
+What might cause the approach to stop being useful in practice?,LIMITATIONS
+What remains uncertain about applying the intervention to different people?,LIMITATIONS
+What does the available evidence not allow us to conclude?,LIMITATIONS
+Why is the current version not yet suitable for widespread adoption?,LIMITATIONS
+What unresolved issues constrain the system's usefulness?,LIMITATIONS
+What could undermine the claims once conditions change?,LIMITATIONS
+Which missing tests leave the proposed solution vulnerable?,LIMITATIONS
+What obstacles would have to be addressed before everyday adoption?,LIMITATIONS
+What concept does the phrase predictive uncertainty describe?,DEFINITION
+Explain what is being named by the term personalized scheduling.,DEFINITION
+What are the authors referring to when they write knowledge retention?,DEFINITION
+Unpack the phrase out-of-distribution evaluation as it is used here.,DEFINITION
+What idea lies behind the label task mastery?,DEFINITION
+How should the expression reference policy be understood in this article?,DEFINITION
+What counts as a valid observation in the paper's terminology?,DEFINITION
+What do the researchers call an individualized intervention?,DEFINITION
+Explain the sense of the word adaptation in the proposed framework.,DEFINITION
+What does the label effective sample size denote?,DEFINITION
+What is intended by the phrase predictive calibration?,DEFINITION
+Which concept is represented by the term surrogate endpoint?,DEFINITION
+What are the authors calling a static policy?,DEFINITION
+Can you clarify what the notation for expected utility signifies?,DEFINITION
+What does the expression measurement invariance mean to the researchers?,DEFINITION

@@ -1,0 +1,14 @@
+[
+  {"question": "What is the broad purpose of the adaptive planning research?", "expected_intent": "SUMMARY", "expected_sources": [{"filename": "adaptive_planning.pdf", "page": 1}]},
+  {"question": "Give an overall account of why the fixed timetable study was undertaken.", "expected_intent": "SUMMARY", "expected_sources": [{"filename": "fixed_planning.pdf", "page": 1}]},
+  {"question": "How were students assigned and followed in the adaptive planning experiment?", "expected_intent": "METHODOLOGY", "expected_sources": [{"filename": "adaptive_planning.pdf", "page": 2}]},
+  {"question": "How did researchers conduct the fixed timetable experiment?", "expected_intent": "METHODOLOGY", "expected_sources": [{"filename": "fixed_planning.pdf", "page": 2}]},
+  {"question": "What retention accuracy did the adaptive planning system achieve?", "expected_intent": "RESULTS", "expected_sources": [{"filename": "adaptive_planning.pdf", "page": 3}]},
+  {"question": "What measured scores did the fixed planning group obtain?", "expected_intent": "RESULTS", "expected_sources": [{"filename": "fixed_planning.pdf", "page": 3}]},
+  {"question": "What prevents the adaptive planning trial from establishing long-term benefits?", "expected_intent": "LIMITATIONS", "expected_sources": [{"filename": "adaptive_planning.pdf", "page": 4}]},
+  {"question": "Why can a fixed schedule neglect a learner's weak topics?", "expected_intent": "LIMITATIONS", "expected_sources": [{"filename": "fixed_planning.pdf", "page": 4}]},
+  {"question": "How do fixed and adaptive planning differ in their response to quiz scores?", "expected_intent": "COMPARISON", "expected_sources": [{"filename": "fixed_planning.pdf", "page": 5}]},
+  {"question": "What delayed retention scores distinguish the adaptive and fixed approaches?", "expected_intent": "COMPARISON", "expected_sources": [{"filename": "adaptive_planning.pdf", "page": 3}, {"filename": "fixed_planning.pdf", "page": 3}]},
+  {"question": "What does adaptive study planning mean in the authors' terminology?", "expected_intent": "DEFINITION", "expected_sources": [{"filename": "adaptive_planning.pdf", "page": 5}]},
+  {"question": "What is meant by fixed study planning?", "expected_intent": "DEFINITION", "expected_sources": [{"filename": "fixed_planning.pdf", "page": 5}]}
+]

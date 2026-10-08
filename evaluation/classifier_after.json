@@ -1,0 +1,606 @@
+{
+  "question_count": 60,
+  "accuracy": 0.9333333333333333,
+  "per_intent": {
+    "SUMMARY": {
+      "correct": 10,
+      "total": 10,
+      "accuracy": 1.0
+    },
+    "COMPARISON": {
+      "correct": 10,
+      "total": 10,
+      "accuracy": 1.0
+    },
+    "METHODOLOGY": {
+      "correct": 8,
+      "total": 10,
+      "accuracy": 0.8
+    },
+    "RESULTS": {
+      "correct": 8,
+      "total": 10,
+      "accuracy": 0.8
+    },
+    "LIMITATIONS": {
+      "correct": 10,
+      "total": 10,
+      "accuracy": 1.0
+    },
+    "DEFINITION": {
+      "correct": 10,
+      "total": 10,
+      "accuracy": 1.0
+    }
+  },
+  "classification_report": {
+    "SUMMARY": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "COMPARISON": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "METHODOLOGY": {
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1-score": 0.8,
+      "support": 10.0
+    },
+    "RESULTS": {
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1-score": 0.8,
+      "support": 10.0
+    },
+    "LIMITATIONS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "DEFINITION": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "accuracy": 0.9333333333333333,
+    "macro avg": {
+      "precision": 0.9333333333333332,
+      "recall": 0.9333333333333332,
+      "f1-score": 0.9333333333333332,
+      "support": 60.0
+    },
+    "weighted avg": {
+      "precision": 0.9333333333333333,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.9333333333333333,
+      "support": 60.0
+    }
+  },
+  "confusion_matrix_order": [
+    "SUMMARY",
+    "COMPARISON",
+    "METHODOLOGY",
+    "RESULTS",
+    "LIMITATIONS",
+    "DEFINITION"
+  ],
+  "confusion_matrix": [
+    [
+      10,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      10,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      8,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      10,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      10
+    ]
+  ],
+  "predictions": [
+    {
+      "question": "What would you tell a colleague who has not read the article?",
+      "expected_intent": "SUMMARY",
+      "predicted_intent": "SUMMARY",
+      "confidence": 0.895369827747345,
+      "correct": true
+    },
+    {
+      "question": "Bring together the motivation and contribution of the whole investigation.",
+      "expected_intent": "SUMMARY",
+      "predicted_intent": "SUMMARY",
+      "confidence": 0.9823231101036072,
+      "correct": true
+    },
+    {
+      "question": "Can you give me the broad picture without dwelling on individual experiments?",
+      "expected_intent": "SUMMARY",
+      "predicted_intent": "SUMMARY",
+      "confidence": 0.5039709210395813,
+      "correct": true
+    },
+    {
+      "question": "What should go into a short introduction to this publication?",
+      "expected_intent": "SUMMARY",
+      "predicted_intent": "SUMMARY",
+      "confidence": 0.9973695278167725,
+      "correct": true
+    },
+    {
+      "question": "Describe the work from its starting problem to its overall conclusion.",
+      "expected_intent": "SUMMARY",
+      "predicted_intent": "SUMMARY",
+      "confidence": 0.9922749400138855,
+      "correct": true
+    },
+    {
+      "question": "What is the through-line connecting the sections of this paper?",
+      "expected_intent": "SUMMARY",
+      "predicted_intent": "SUMMARY",
+      "confidence": 0.7697310447692871,
+      "correct": true
+    },
+    {
+      "question": "Capture the research as a whole for a reading group.",
+      "expected_intent": "SUMMARY",
+      "predicted_intent": "SUMMARY",
+      "confidence": 0.9839614629745483,
+      "correct": true
+    },
+    {
+      "question": "What are the essential ideas someone should take away from the entire article?",
+      "expected_intent": "SUMMARY",
+      "predicted_intent": "SUMMARY",
+      "confidence": 0.9912949800491333,
+      "correct": true
+    },
+    {
+      "question": "How would you pitch the authors' contribution in sixty seconds?",
+      "expected_intent": "SUMMARY",
+      "predicted_intent": "SUMMARY",
+      "confidence": 0.9625920057296753,
+      "correct": true
+    },
+    {
+      "question": "Give me a compact account that covers both the aim and the main findings.",
+      "expected_intent": "SUMMARY",
+      "predicted_intent": "SUMMARY",
+      "confidence": 0.9668108820915222,
+      "correct": true
+    },
+    {
+      "question": "Where do the adaptive schedule and the fixed timetable diverge?",
+      "expected_intent": "COMPARISON",
+      "predicted_intent": "COMPARISON",
+      "confidence": 0.9380417466163635,
+      "correct": true
+    },
+    {
+      "question": "Are the supervised and unsupervised versions making the same assumptions?",
+      "expected_intent": "COMPARISON",
+      "predicted_intent": "COMPARISON",
+      "confidence": 0.9504307508468628,
+      "correct": true
+    },
+    {
+      "question": "What sets the two candidate systems apart in this article?",
+      "expected_intent": "COMPARISON",
+      "predicted_intent": "COMPARISON",
+      "confidence": 0.9922236204147339,
+      "correct": true
+    },
+    {
+      "question": "In what respects are the findings of the two teams consistent?",
+      "expected_intent": "COMPARISON",
+      "predicted_intent": "COMPARISON",
+      "confidence": 0.9831089377403259,
+      "correct": true
+    },
+    {
+      "question": "Would you contrast the resource demands of these alternatives?",
+      "expected_intent": "COMPARISON",
+      "predicted_intent": "COMPARISON",
+      "confidence": 0.8881976008415222,
+      "correct": true
+    },
+    {
+      "question": "Which distinctions matter when choosing between the proposed models?",
+      "expected_intent": "COMPARISON",
+      "predicted_intent": "COMPARISON",
+      "confidence": 0.9983323216438293,
+      "correct": true
+    },
+    {
+      "question": "What stays the same and what changes across the two study designs?",
+      "expected_intent": "COMPARISON",
+      "predicted_intent": "COMPARISON",
+      "confidence": 0.9992345571517944,
+      "correct": true
+    },
+    {
+      "question": "How do the authors' explanation and the rival explanation line up?",
+      "expected_intent": "COMPARISON",
+      "predicted_intent": "COMPARISON",
+      "confidence": 0.9333270192146301,
+      "correct": true
+    },
+    {
+      "question": "Do the two approaches have similar blind spots?",
+      "expected_intent": "COMPARISON",
+      "predicted_intent": "COMPARISON",
+      "confidence": 0.9933516383171082,
+      "correct": true
+    },
+    {
+      "question": "What separates the fixed planner from the adaptive planner?",
+      "expected_intent": "COMPARISON",
+      "predicted_intent": "COMPARISON",
+      "confidence": 0.9619941115379333,
+      "correct": true
+    },
+    {
+      "question": "How did the researchers turn the raw records into the analyzed dataset?",
+      "expected_intent": "METHODOLOGY",
+      "predicted_intent": "METHODOLOGY",
+      "confidence": 0.980830729007721,
+      "correct": true
+    },
+    {
+      "question": "What happened between recruiting volunteers and computing the final estimates?",
+      "expected_intent": "METHODOLOGY",
+      "predicted_intent": "METHODOLOGY",
+      "confidence": 0.6440044641494751,
+      "correct": true
+    },
+    {
+      "question": "Which steps were followed when fitting and validating the predictor?",
+      "expected_intent": "METHODOLOGY",
+      "predicted_intent": "METHODOLOGY",
+      "confidence": 0.9498693943023682,
+      "correct": true
+    },
+    {
+      "question": "How was the study arranged to test the researchers' hypothesis?",
+      "expected_intent": "METHODOLOGY",
+      "predicted_intent": "METHODOLOGY",
+      "confidence": 0.882079541683197,
+      "correct": true
+    },
+    {
+      "question": "What did the team do to obtain reliable sensor readings?",
+      "expected_intent": "METHODOLOGY",
+      "predicted_intent": "METHODOLOGY",
+      "confidence": 0.9278435111045837,
+      "correct": true
+    },
+    {
+      "question": "How were learning rates and batch sizes chosen for the training runs?",
+      "expected_intent": "METHODOLOGY",
+      "predicted_intent": "METHODOLOGY",
+      "confidence": 0.7515543699264526,
+      "correct": true
+    },
+    {
+      "question": "What was done to measure the system's performance?",
+      "expected_intent": "METHODOLOGY",
+      "predicted_intent": "RESULTS",
+      "confidence": 0.6556972861289978,
+      "correct": false
+    },
+    {
+      "question": "Which operations transformed the collected observations before testing?",
+      "expected_intent": "METHODOLOGY",
+      "predicted_intent": "METHODOLOGY",
+      "confidence": 0.9152973890304565,
+      "correct": true
+    },
+    {
+      "question": "How did the investigators decide who received the intervention?",
+      "expected_intent": "METHODOLOGY",
+      "predicted_intent": "METHODOLOGY",
+      "confidence": 0.8703114986419678,
+      "correct": true
+    },
+    {
+      "question": "What sequence of actions would reproduce their evaluation?",
+      "expected_intent": "METHODOLOGY",
+      "predicted_intent": "RESULTS",
+      "confidence": 0.4174405336380005,
+      "correct": false
+    },
+    {
+      "question": "How well did the proposed system perform?",
+      "expected_intent": "RESULTS",
+      "predicted_intent": "RESULTS",
+      "confidence": 0.923487663269043,
+      "correct": true
+    },
+    {
+      "question": "What improvement was observed over the baseline?",
+      "expected_intent": "RESULTS",
+      "predicted_intent": "RESULTS",
+      "confidence": 0.9700887799263,
+      "correct": true
+    },
+    {
+      "question": "What numbers did the researchers report?",
+      "expected_intent": "RESULTS",
+      "predicted_intent": "RESULTS",
+      "confidence": 0.886178195476532,
+      "correct": true
+    },
+    {
+      "question": "What performance did the system achieve?",
+      "expected_intent": "RESULTS",
+      "predicted_intent": "RESULTS",
+      "confidence": 0.9307502508163452,
+      "correct": true
+    },
+    {
+      "question": "Was the predictor effective on examples it had not seen?",
+      "expected_intent": "RESULTS",
+      "predicted_intent": "RESULTS",
+      "confidence": 0.9301849603652954,
+      "correct": true
+    },
+    {
+      "question": "How much better were the scores after introducing the new component?",
+      "expected_intent": "RESULTS",
+      "predicted_intent": "RESULTS",
+      "confidence": 0.911949634552002,
+      "correct": true
+    },
+    {
+      "question": "What happened to retention after the intervention?",
+      "expected_intent": "RESULTS",
+      "predicted_intent": "RESULTS",
+      "confidence": 0.7700565457344055,
+      "correct": true
+    },
+    {
+      "question": "What did they actually obtain at the end of the trial?",
+      "expected_intent": "RESULTS",
+      "predicted_intent": "METHODOLOGY",
+      "confidence": 0.8108927011489868,
+      "correct": false
+    },
+    {
+      "question": "Did the proposed approach deliver the claimed benefit in the measurements?",
+      "expected_intent": "RESULTS",
+      "predicted_intent": "RESULTS",
+      "confidence": 0.8598090410232544,
+      "correct": true
+    },
+    {
+      "question": "What did the adaptive system achieve on the final assessment?",
+      "expected_intent": "RESULTS",
+      "predicted_intent": "METHODOLOGY",
+      "confidence": 0.7774638533592224,
+      "correct": false
+    },
+    {
+      "question": "Where does the approach struggle?",
+      "expected_intent": "LIMITATIONS",
+      "predicted_intent": "LIMITATIONS",
+      "confidence": 0.8350306153297424,
+      "correct": true
+    },
+    {
+      "question": "What problems remain unresolved?",
+      "expected_intent": "LIMITATIONS",
+      "predicted_intent": "LIMITATIONS",
+      "confidence": 0.989858090877533,
+      "correct": true
+    },
+    {
+      "question": "What would stop these findings from applying to a different setting?",
+      "expected_intent": "LIMITATIONS",
+      "predicted_intent": "LIMITATIONS",
+      "confidence": 0.9762094616889954,
+      "correct": true
+    },
+    {
+      "question": "Where should readers be cautious about the authors' claims?",
+      "expected_intent": "LIMITATIONS",
+      "predicted_intent": "LIMITATIONS",
+      "confidence": 0.7499063611030579,
+      "correct": true
+    },
+    {
+      "question": "What has not yet been demonstrated convincingly?",
+      "expected_intent": "LIMITATIONS",
+      "predicted_intent": "LIMITATIONS",
+      "confidence": 0.7882778644561768,
+      "correct": true
+    },
+    {
+      "question": "Which circumstances would undermine the proposed solution?",
+      "expected_intent": "LIMITATIONS",
+      "predicted_intent": "LIMITATIONS",
+      "confidence": 0.9845362305641174,
+      "correct": true
+    },
+    {
+      "question": "What keeps this system from being ready for everyday use?",
+      "expected_intent": "LIMITATIONS",
+      "predicted_intent": "LIMITATIONS",
+      "confidence": 0.5882045030593872,
+      "correct": true
+    },
+    {
+      "question": "Which parts of the argument still rest on uncertain evidence?",
+      "expected_intent": "LIMITATIONS",
+      "predicted_intent": "LIMITATIONS",
+      "confidence": 0.8041404485702515,
+      "correct": true
+    },
+    {
+      "question": "What could go wrong when this technique encounters unfamiliar inputs?",
+      "expected_intent": "LIMITATIONS",
+      "predicted_intent": "LIMITATIONS",
+      "confidence": 0.8875088095664978,
+      "correct": true
+    },
+    {
+      "question": "Why might the observed benefit not last beyond this trial?",
+      "expected_intent": "LIMITATIONS",
+      "predicted_intent": "LIMITATIONS",
+      "confidence": 0.8677775859832764,
+      "correct": true
+    },
+    {
+      "question": "When the paper says mastery what is it referring to?",
+      "expected_intent": "DEFINITION",
+      "predicted_intent": "DEFINITION",
+      "confidence": 0.9797000288963318,
+      "correct": true
+    },
+    {
+      "question": "What do the authors mean by an adaptive study schedule?",
+      "expected_intent": "DEFINITION",
+      "predicted_intent": "DEFINITION",
+      "confidence": 0.367950439453125,
+      "correct": true
+    },
+    {
+      "question": "Could you unpack the phrase delayed retention test?",
+      "expected_intent": "DEFINITION",
+      "predicted_intent": "DEFINITION",
+      "confidence": 0.5536864399909973,
+      "correct": true
+    },
+    {
+      "question": "How should I interpret the term distributional robustness here?",
+      "expected_intent": "DEFINITION",
+      "predicted_intent": "DEFINITION",
+      "confidence": 0.6249772310256958,
+      "correct": true
+    },
+    {
+      "question": "What counts as a negative control in their terminology?",
+      "expected_intent": "DEFINITION",
+      "predicted_intent": "DEFINITION",
+      "confidence": 0.9433696269989014,
+      "correct": true
+    },
+    {
+      "question": "What idea is captured by the label sample efficiency?",
+      "expected_intent": "DEFINITION",
+      "predicted_intent": "DEFINITION",
+      "confidence": 0.4442775547504425,
+      "correct": true
+    },
+    {
+      "question": "In this article what is the concept behind active learning?",
+      "expected_intent": "DEFINITION",
+      "predicted_intent": "DEFINITION",
+      "confidence": 0.8761187791824341,
+      "correct": true
+    },
+    {
+      "question": "What does the notation for conditional independence signify?",
+      "expected_intent": "DEFINITION",
+      "predicted_intent": "DEFINITION",
+      "confidence": 0.9733913540840149,
+      "correct": true
+    },
+    {
+      "question": "What are the researchers calling a fixed planning policy?",
+      "expected_intent": "DEFINITION",
+      "predicted_intent": "DEFINITION",
+      "confidence": 0.7312416434288025,
+      "correct": true
+    },
+    {
+      "question": "Can you clarify the sense in which the word calibration is used?",
+      "expected_intent": "DEFINITION",
+      "predicted_intent": "DEFINITION",
+      "confidence": 0.8714215755462646,
+      "correct": true
+    }
+  ],
+  "misclassified": [
+    {
+      "question": "What was done to measure the system's performance?",
+      "expected_intent": "METHODOLOGY",
+      "predicted_intent": "RESULTS",
+      "confidence": 0.6556972861289978,
+      "correct": false
+    },
+    {
+      "question": "What sequence of actions would reproduce their evaluation?",
+      "expected_intent": "METHODOLOGY",
+      "predicted_intent": "RESULTS",
+      "confidence": 0.4174405336380005,
+      "correct": false
+    },
+    {
+      "question": "What did they actually obtain at the end of the trial?",
+      "expected_intent": "RESULTS",
+      "predicted_intent": "METHODOLOGY",
+      "confidence": 0.8108927011489868,
+      "correct": false
+    },
+    {
+      "question": "What did the adaptive system achieve on the final assessment?",
+      "expected_intent": "RESULTS",
+      "predicted_intent": "METHODOLOGY",
+      "confidence": 0.7774638533592224,
+      "correct": false
+    }
+  ],
+  "known_failure": {
+    "question": "What performance did the adaptive planner achieve?",
+    "expected_intent": "RESULTS",
+    "predicted_intent": "METHODOLOGY",
+    "confidence": 0.5085442662239075
+  },
+  "evaluation_sha256": "d854dac3d07ed48c628eda3b31e783dfda87969b568440c44efa1b42788257b1",
+  "model_sha256": "71c3c0f805767778d7089235f4f21e8c7774f16bf3a05ff719f9620194b40b60",
+  "training_dataset_sha256": "aee5b1984d2b588962fdc172af46d4df98e51d53c880ddfa8bc74731cacd65bf"
+}

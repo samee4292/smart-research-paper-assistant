@@ -1,0 +1,1991 @@
+{
+  "question_count": 12,
+  "metrics": {
+    "basic": {
+      "top_1_hit_rate": 0.75,
+      "top_3_hit_rate": 0.8333333333333334,
+      "top_5_hit_rate": 1.0,
+      "all_expected_pages_top_5_rate": 1.0
+    },
+    "intent_aware": {
+      "top_1_hit_rate": 0.75,
+      "top_3_hit_rate": 0.9166666666666666,
+      "top_5_hit_rate": 1.0,
+      "all_expected_pages_top_5_rate": 1.0
+    }
+  },
+  "changes": {
+    "top_1": {
+      "improved": [],
+      "worsened": []
+    },
+    "top_3": {
+      "improved": [
+        "What prevents the adaptive planning trial from establishing long-term benefits?"
+      ],
+      "worsened": []
+    },
+    "top_5": {
+      "improved": [],
+      "worsened": []
+    }
+  },
+  "questions": [
+    {
+      "question": "What is the broad purpose of the adaptive planning research?",
+      "expected_intent": "SUMMARY",
+      "expected_sources": [
+        {
+          "filename": "adaptive_planning.pdf",
+          "page": 1
+        }
+      ],
+      "predicted_intent": "METHODOLOGY",
+      "confidence": 0.3512497842311859,
+      "basic": {
+        "hits": {
+          "top_1": false,
+          "top_3": false,
+          "top_5": true
+        },
+        "all_expected_pages_top_5": true,
+        "chunks": [
+          {
+            "chunk_id": "adaptive_planning.pdf_p5_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 5,
+            "text": "Definition and terminology. Adaptive study planning means dynamically changing a learner's study schedule based on measured topic mastery. The concept refers to choosing what to study next using recent assessment data. In this system, low quiz scores increase the priority of a topic. Adaptive does not mean that students necessarily spend more time studying.",
+            "similarity": 0.6538050174713135,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.6538050174713135,
+            "expansion_similarity": null,
+            "relevance_score": 0.6538050174713135,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p5_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 5,
+            "text": "Definition and comparison. Fixed study planning means following a predefined timetable that does not change with quiz performance. The adaptive approach differs from the fixed approach by updating topic priorities based on learner mastery. Fixed planning prioritizes predictability, while adaptive planning responds to assessment data. Both approaches can allocate the same total study time.",
+            "similarity": 0.608289361000061,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.608289361000061,
+            "expansion_similarity": null,
+            "relevance_score": 0.608289361000061,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p3_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 3,
+            "text": "Results and performance evaluation. The adaptive study planning system achieved a mean delayed retention accuracy of eighty percent, compared with seventy-two percent for the fixed schedule. Weekly quiz scores improved by nine percentage points. Average weekly study time was similar in both groups. These fictional outcomes describe this development fixture only and are not actual scientific findings.",
+            "similarity": 0.5235258340835571,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.5235258340835571,
+            "expansion_similarity": null,
+            "relevance_score": 0.5235258340835571,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p1_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 1,
+            "text": "Overview and purpose. This research explores adaptive study planning for university students. The main idea is to adjust study tasks according to weekly quiz results rather than follow an unchanged timetable. The proposed system targets topics with low mastery. Key findings suggest better retention with adaptive planning, while the conclusion calls for longer evaluations across institutions.",
+            "similarity": 0.5232303142547607,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.5232303142547607,
+            "expansion_similarity": null,
+            "relevance_score": 0.5232303142547607,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p2_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 2,
+            "text": "Methods and experimental procedure. The experiment randomly assigned sixty students to adaptive or fixed study planning for six weeks. Both groups studied identical biology material. Researchers collected weekly quizzes and a delayed retention test. The adaptive implementation updated topic priorities using quiz mastery scores. The fixed group used a predefined schedule. Evaluation used group mean retention and study time.",
+            "similarity": 0.5095364451408386,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.5095364451408386,
+            "expansion_similarity": null,
+            "relevance_score": 0.5095364451408386,
+            "ranking_metric": "COSINE"
+          }
+        ]
+      },
+      "intent_aware": {
+        "hits": {
+          "top_1": false,
+          "top_3": false,
+          "top_5": true
+        },
+        "all_expected_pages_top_5": true,
+        "chunks": [
+          {
+            "chunk_id": "adaptive_planning.pdf_p5_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 5,
+            "text": "Definition and terminology. Adaptive study planning means dynamically changing a learner's study schedule based on measured topic mastery. The concept refers to choosing what to study next using recent assessment data. In this system, low quiz scores increase the priority of a topic. Adaptive does not mean that students necessarily spend more time studying.",
+            "similarity": 0.6538050174713135,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC_FALLBACK",
+            "original_similarity": 0.6538050174713135,
+            "expansion_similarity": null,
+            "relevance_score": 0.6538050174713135,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p5_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 5,
+            "text": "Definition and comparison. Fixed study planning means following a predefined timetable that does not change with quiz performance. The adaptive approach differs from the fixed approach by updating topic priorities based on learner mastery. Fixed planning prioritizes predictability, while adaptive planning responds to assessment data. Both approaches can allocate the same total study time.",
+            "similarity": 0.608289361000061,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC_FALLBACK",
+            "original_similarity": 0.608289361000061,
+            "expansion_similarity": null,
+            "relevance_score": 0.608289361000061,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p3_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 3,
+            "text": "Results and performance evaluation. The adaptive study planning system achieved a mean delayed retention accuracy of eighty percent, compared with seventy-two percent for the fixed schedule. Weekly quiz scores improved by nine percentage points. Average weekly study time was similar in both groups. These fictional outcomes describe this development fixture only and are not actual scientific findings.",
+            "similarity": 0.5235258340835571,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC_FALLBACK",
+            "original_similarity": 0.5235258340835571,
+            "expansion_similarity": null,
+            "relevance_score": 0.5235258340835571,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p1_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 1,
+            "text": "Overview and purpose. This research explores adaptive study planning for university students. The main idea is to adjust study tasks according to weekly quiz results rather than follow an unchanged timetable. The proposed system targets topics with low mastery. Key findings suggest better retention with adaptive planning, while the conclusion calls for longer evaluations across institutions.",
+            "similarity": 0.5232303142547607,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC_FALLBACK",
+            "original_similarity": 0.5232303142547607,
+            "expansion_similarity": null,
+            "relevance_score": 0.5232303142547607,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p2_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 2,
+            "text": "Methods and experimental procedure. The experiment randomly assigned sixty students to adaptive or fixed study planning for six weeks. Both groups studied identical biology material. Researchers collected weekly quizzes and a delayed retention test. The adaptive implementation updated topic priorities using quiz mastery scores. The fixed group used a predefined schedule. Evaluation used group mean retention and study time.",
+            "similarity": 0.5095364451408386,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC_FALLBACK",
+            "original_similarity": 0.5095364451408386,
+            "expansion_similarity": null,
+            "relevance_score": 0.5095364451408386,
+            "ranking_metric": "COSINE"
+          }
+        ]
+      }
+    },
+    {
+      "question": "Give an overall account of why the fixed timetable study was undertaken.",
+      "expected_intent": "SUMMARY",
+      "expected_sources": [
+        {
+          "filename": "fixed_planning.pdf",
+          "page": 1
+        }
+      ],
+      "predicted_intent": "METHODOLOGY",
+      "confidence": 0.4660167992115021,
+      "basic": {
+        "hits": {
+          "top_1": false,
+          "top_3": true,
+          "top_5": true
+        },
+        "all_expected_pages_top_5": true,
+        "chunks": [
+          {
+            "chunk_id": "fixed_planning.pdf_p2_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 2,
+            "text": "Methodology and experiment setup. Sixty students were randomly allocated to two conditions for six weeks. The fixed study planning group followed the same timetable each week, regardless of quiz results. Researchers used identical course material and collected weekly assessments and delayed retention scores. The experiment controlled total scheduled study time to compare planning approaches.",
+            "similarity": 0.6107041835784912,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.6107041835784912,
+            "expansion_similarity": null,
+            "relevance_score": 0.6107041835784912,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p1_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 1,
+            "text": "Overview. This research studies fixed study planning as a simple approach to organizing university revision. Its main idea is to give every learner a stable predefined timetable. The purpose is predictable coverage of all course topics. The conclusion is that a fixed schedule is easy to implement but does not respond to changes in individual topic mastery.",
+            "similarity": 0.5507142543792725,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.5507142543792725,
+            "expansion_similarity": null,
+            "relevance_score": 0.5507142543792725,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p5_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 5,
+            "text": "Definition and comparison. Fixed study planning means following a predefined timetable that does not change with quiz performance. The adaptive approach differs from the fixed approach by updating topic priorities based on learner mastery. Fixed planning prioritizes predictability, while adaptive planning responds to assessment data. Both approaches can allocate the same total study time.",
+            "similarity": 0.5389641523361206,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.5389641523361206,
+            "expansion_similarity": null,
+            "relevance_score": 0.5389641523361206,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p3_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 3,
+            "text": "Results. Fixed study planning achieved seventy-two percent mean delayed retention accuracy. The adaptive comparison group achieved eighty percent. The fixed system's performance was lower on weak topics, although its schedule had less administrative overhead. These numbers are invented for testing retrieval and must not be interpreted as published research findings.",
+            "similarity": 0.5275000333786011,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.5275000333786011,
+            "expansion_similarity": null,
+            "relevance_score": 0.5275000333786011,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p3_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 3,
+            "text": "Results and performance evaluation. The adaptive study planning system achieved a mean delayed retention accuracy of eighty percent, compared with seventy-two percent for the fixed schedule. Weekly quiz scores improved by nine percentage points. Average weekly study time was similar in both groups. These fictional outcomes describe this development fixture only and are not actual scientific findings.",
+            "similarity": 0.5187362432479858,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.5187362432479858,
+            "expansion_similarity": null,
+            "relevance_score": 0.5187362432479858,
+            "ranking_metric": "COSINE"
+          }
+        ]
+      },
+      "intent_aware": {
+        "hits": {
+          "top_1": false,
+          "top_3": true,
+          "top_5": true
+        },
+        "all_expected_pages_top_5": true,
+        "chunks": [
+          {
+            "chunk_id": "fixed_planning.pdf_p2_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 2,
+            "text": "Methodology and experiment setup. Sixty students were randomly allocated to two conditions for six weeks. The fixed study planning group followed the same timetable each week, regardless of quiz results. Researchers used identical course material and collected weekly assessments and delayed retention scores. The experiment controlled total scheduled study time to compare planning approaches.",
+            "similarity": 0.6107041835784912,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC_FALLBACK",
+            "original_similarity": 0.6107041835784912,
+            "expansion_similarity": null,
+            "relevance_score": 0.6107041835784912,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p1_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 1,
+            "text": "Overview. This research studies fixed study planning as a simple approach to organizing university revision. Its main idea is to give every learner a stable predefined timetable. The purpose is predictable coverage of all course topics. The conclusion is that a fixed schedule is easy to implement but does not respond to changes in individual topic mastery.",
+            "similarity": 0.5507142543792725,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC_FALLBACK",
+            "original_similarity": 0.5507142543792725,
+            "expansion_similarity": null,
+            "relevance_score": 0.5507142543792725,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p5_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 5,
+            "text": "Definition and comparison. Fixed study planning means following a predefined timetable that does not change with quiz performance. The adaptive approach differs from the fixed approach by updating topic priorities based on learner mastery. Fixed planning prioritizes predictability, while adaptive planning responds to assessment data. Both approaches can allocate the same total study time.",
+            "similarity": 0.5389641523361206,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC_FALLBACK",
+            "original_similarity": 0.5389641523361206,
+            "expansion_similarity": null,
+            "relevance_score": 0.5389641523361206,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p3_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 3,
+            "text": "Results. Fixed study planning achieved seventy-two percent mean delayed retention accuracy. The adaptive comparison group achieved eighty percent. The fixed system's performance was lower on weak topics, although its schedule had less administrative overhead. These numbers are invented for testing retrieval and must not be interpreted as published research findings.",
+            "similarity": 0.5275000333786011,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC_FALLBACK",
+            "original_similarity": 0.5275000333786011,
+            "expansion_similarity": null,
+            "relevance_score": 0.5275000333786011,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p3_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 3,
+            "text": "Results and performance evaluation. The adaptive study planning system achieved a mean delayed retention accuracy of eighty percent, compared with seventy-two percent for the fixed schedule. Weekly quiz scores improved by nine percentage points. Average weekly study time was similar in both groups. These fictional outcomes describe this development fixture only and are not actual scientific findings.",
+            "similarity": 0.5187362432479858,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC_FALLBACK",
+            "original_similarity": 0.5187362432479858,
+            "expansion_similarity": null,
+            "relevance_score": 0.5187362432479858,
+            "ranking_metric": "COSINE"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How were students assigned and followed in the adaptive planning experiment?",
+      "expected_intent": "METHODOLOGY",
+      "expected_sources": [
+        {
+          "filename": "adaptive_planning.pdf",
+          "page": 2
+        }
+      ],
+      "predicted_intent": "METHODOLOGY",
+      "confidence": 0.9751538634300232,
+      "basic": {
+        "hits": {
+          "top_1": true,
+          "top_3": true,
+          "top_5": true
+        },
+        "all_expected_pages_top_5": true,
+        "chunks": [
+          {
+            "chunk_id": "adaptive_planning.pdf_p2_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 2,
+            "text": "Methods and experimental procedure. The experiment randomly assigned sixty students to adaptive or fixed study planning for six weeks. Both groups studied identical biology material. Researchers collected weekly quizzes and a delayed retention test. The adaptive implementation updated topic priorities using quiz mastery scores. The fixed group used a predefined schedule. Evaluation used group mean retention and study time.",
+            "similarity": 0.6680202484130859,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.6680202484130859,
+            "expansion_similarity": null,
+            "relevance_score": 0.6680202484130859,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p5_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 5,
+            "text": "Definition and terminology. Adaptive study planning means dynamically changing a learner's study schedule based on measured topic mastery. The concept refers to choosing what to study next using recent assessment data. In this system, low quiz scores increase the priority of a topic. Adaptive does not mean that students necessarily spend more time studying.",
+            "similarity": 0.639017641544342,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.639017641544342,
+            "expansion_similarity": null,
+            "relevance_score": 0.639017641544342,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p2_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 2,
+            "text": "Methodology and experiment setup. Sixty students were randomly allocated to two conditions for six weeks. The fixed study planning group followed the same timetable each week, regardless of quiz results. Researchers used identical course material and collected weekly assessments and delayed retention scores. The experiment controlled total scheduled study time to compare planning approaches.",
+            "similarity": 0.6005827188491821,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.6005827188491821,
+            "expansion_similarity": null,
+            "relevance_score": 0.6005827188491821,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p5_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 5,
+            "text": "Definition and comparison. Fixed study planning means following a predefined timetable that does not change with quiz performance. The adaptive approach differs from the fixed approach by updating topic priorities based on learner mastery. Fixed planning prioritizes predictability, while adaptive planning responds to assessment data. Both approaches can allocate the same total study time.",
+            "similarity": 0.592707097530365,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.592707097530365,
+            "expansion_similarity": null,
+            "relevance_score": 0.592707097530365,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p3_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 3,
+            "text": "Results and performance evaluation. The adaptive study planning system achieved a mean delayed retention accuracy of eighty percent, compared with seventy-two percent for the fixed schedule. Weekly quiz scores improved by nine percentage points. Average weekly study time was similar in both groups. These fictional outcomes describe this development fixture only and are not actual scientific findings.",
+            "similarity": 0.574600100517273,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.574600100517273,
+            "expansion_similarity": null,
+            "relevance_score": 0.574600100517273,
+            "ranking_metric": "COSINE"
+          }
+        ]
+      },
+      "intent_aware": {
+        "hits": {
+          "top_1": true,
+          "top_3": true,
+          "top_5": true
+        },
+        "all_expected_pages_top_5": true,
+        "chunks": [
+          {
+            "chunk_id": "adaptive_planning.pdf_p2_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 2,
+            "text": "Methods and experimental procedure. The experiment randomly assigned sixty students to adaptive or fixed study planning for six weeks. Both groups studied identical biology material. Researchers collected weekly quizzes and a delayed retention test. The adaptive implementation updated topic priorities using quiz mastery scores. The fixed group used a predefined schedule. Evaluation used group mean retention and study time.",
+            "similarity": 0.6680202484130859,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.6680202484130859,
+            "expansion_similarity": 0.6285666823387146,
+            "relevance_score": 0.03278688524590164,
+            "ranking_metric": "RRF"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p5_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 5,
+            "text": "Definition and terminology. Adaptive study planning means dynamically changing a learner's study schedule based on measured topic mastery. The concept refers to choosing what to study next using recent assessment data. In this system, low quiz scores increase the priority of a topic. Adaptive does not mean that students necessarily spend more time studying.",
+            "similarity": 0.639017641544342,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.639017641544342,
+            "expansion_similarity": 0.6088452339172363,
+            "relevance_score": 0.03225806451612903,
+            "ranking_metric": "RRF"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p2_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 2,
+            "text": "Methodology and experiment setup. Sixty students were randomly allocated to two conditions for six weeks. The fixed study planning group followed the same timetable each week, regardless of quiz results. Researchers used identical course material and collected weekly assessments and delayed retention scores. The experiment controlled total scheduled study time to compare planning approaches.",
+            "similarity": 0.6005827188491821,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.6005827188491821,
+            "expansion_similarity": 0.6014887094497681,
+            "relevance_score": 0.031746031746031744,
+            "ranking_metric": "RRF"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p5_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 5,
+            "text": "Definition and comparison. Fixed study planning means following a predefined timetable that does not change with quiz performance. The adaptive approach differs from the fixed approach by updating topic priorities based on learner mastery. Fixed planning prioritizes predictability, while adaptive planning responds to assessment data. Both approaches can allocate the same total study time.",
+            "similarity": 0.592707097530365,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.592707097530365,
+            "expansion_similarity": 0.5843330025672913,
+            "relevance_score": 0.03125,
+            "ranking_metric": "RRF"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p1_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 1,
+            "text": "Overview and purpose. This research explores adaptive study planning for university students. The main idea is to adjust study tasks according to weekly quiz results rather than follow an unchanged timetable. The proposed system targets topics with low mastery. Key findings suggest better retention with adaptive planning, while the conclusion calls for longer evaluations across institutions.",
+            "similarity": 0.5710043907165527,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.5710043907165527,
+            "expansion_similarity": 0.555691123008728,
+            "relevance_score": 0.030536130536130537,
+            "ranking_metric": "RRF"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How did researchers conduct the fixed timetable experiment?",
+      "expected_intent": "METHODOLOGY",
+      "expected_sources": [
+        {
+          "filename": "fixed_planning.pdf",
+          "page": 2
+        }
+      ],
+      "predicted_intent": "METHODOLOGY",
+      "confidence": 0.9051807522773743,
+      "basic": {
+        "hits": {
+          "top_1": true,
+          "top_3": true,
+          "top_5": true
+        },
+        "all_expected_pages_top_5": true,
+        "chunks": [
+          {
+            "chunk_id": "fixed_planning.pdf_p2_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 2,
+            "text": "Methodology and experiment setup. Sixty students were randomly allocated to two conditions for six weeks. The fixed study planning group followed the same timetable each week, regardless of quiz results. Researchers used identical course material and collected weekly assessments and delayed retention scores. The experiment controlled total scheduled study time to compare planning approaches.",
+            "similarity": 0.6169419884681702,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.6169419884681702,
+            "expansion_similarity": null,
+            "relevance_score": 0.6169419884681702,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p2_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 2,
+            "text": "Methods and experimental procedure. The experiment randomly assigned sixty students to adaptive or fixed study planning for six weeks. Both groups studied identical biology material. Researchers collected weekly quizzes and a delayed retention test. The adaptive implementation updated topic priorities using quiz mastery scores. The fixed group used a predefined schedule. Evaluation used group mean retention and study time.",
+            "similarity": 0.5293936729431152,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.5293936729431152,
+            "expansion_similarity": null,
+            "relevance_score": 0.5293936729431152,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p3_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 3,
+            "text": "Results and performance evaluation. The adaptive study planning system achieved a mean delayed retention accuracy of eighty percent, compared with seventy-two percent for the fixed schedule. Weekly quiz scores improved by nine percentage points. Average weekly study time was similar in both groups. These fictional outcomes describe this development fixture only and are not actual scientific findings.",
+            "similarity": 0.47483742237091064,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.47483742237091064,
+            "expansion_similarity": null,
+            "relevance_score": 0.47483742237091064,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p4_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 4,
+            "text": "Limitations and constraints. Fixed study planning cannot adapt its topic allocation when a learner struggles. The approach may waste time on already mastered concepts and neglect weaker topics. The evaluation used one institution and a short duration, limiting generalization. Future work could explore hybrid schedules that retain predictable timing while allowing topic adjustments.",
+            "similarity": 0.44353199005126953,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.44353199005126953,
+            "expansion_similarity": null,
+            "relevance_score": 0.44353199005126953,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p1_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 1,
+            "text": "Overview. This research studies fixed study planning as a simple approach to organizing university revision. Its main idea is to give every learner a stable predefined timetable. The purpose is predictable coverage of all course topics. The conclusion is that a fixed schedule is easy to implement but does not respond to changes in individual topic mastery.",
+            "similarity": 0.44291776418685913,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.44291776418685913,
+            "expansion_similarity": null,
+            "relevance_score": 0.44291776418685913,
+            "ranking_metric": "COSINE"
+          }
+        ]
+      },
+      "intent_aware": {
+        "hits": {
+          "top_1": true,
+          "top_3": true,
+          "top_5": true
+        },
+        "all_expected_pages_top_5": true,
+        "chunks": [
+          {
+            "chunk_id": "fixed_planning.pdf_p2_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 2,
+            "text": "Methodology and experiment setup. Sixty students were randomly allocated to two conditions for six weeks. The fixed study planning group followed the same timetable each week, regardless of quiz results. Researchers used identical course material and collected weekly assessments and delayed retention scores. The experiment controlled total scheduled study time to compare planning approaches.",
+            "similarity": 0.6169419884681702,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.6169419884681702,
+            "expansion_similarity": 0.6366382837295532,
+            "relevance_score": 0.03278688524590164,
+            "ranking_metric": "RRF"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p2_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 2,
+            "text": "Methods and experimental procedure. The experiment randomly assigned sixty students to adaptive or fixed study planning for six weeks. Both groups studied identical biology material. Researchers collected weekly quizzes and a delayed retention test. The adaptive implementation updated topic priorities using quiz mastery scores. The fixed group used a predefined schedule. Evaluation used group mean retention and study time.",
+            "similarity": 0.5293936729431152,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.5293936729431152,
+            "expansion_similarity": 0.538336992263794,
+            "relevance_score": 0.03225806451612903,
+            "ranking_metric": "RRF"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p3_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 3,
+            "text": "Results and performance evaluation. The adaptive study planning system achieved a mean delayed retention accuracy of eighty percent, compared with seventy-two percent for the fixed schedule. Weekly quiz scores improved by nine percentage points. Average weekly study time was similar in both groups. These fictional outcomes describe this development fixture only and are not actual scientific findings.",
+            "similarity": 0.47483742237091064,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.47483742237091064,
+            "expansion_similarity": 0.48279979825019836,
+            "relevance_score": 0.031746031746031744,
+            "ranking_metric": "RRF"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p3_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 3,
+            "text": "Results. Fixed study planning achieved seventy-two percent mean delayed retention accuracy. The adaptive comparison group achieved eighty percent. The fixed system's performance was lower on weak topics, although its schedule had less administrative overhead. These numbers are invented for testing retrieval and must not be interpreted as published research findings.",
+            "similarity": 0.4420236647129059,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.4420236647129059,
+            "expansion_similarity": 0.4723728597164154,
+            "relevance_score": 0.030776515151515152,
+            "ranking_metric": "RRF"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p4_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 4,
+            "text": "Limitations and constraints. Fixed study planning cannot adapt its topic allocation when a learner struggles. The approach may waste time on already mastered concepts and neglect weaker topics. The evaluation used one institution and a short duration, limiting generalization. Future work could explore hybrid schedules that retain predictable timing while allowing topic adjustments.",
+            "similarity": 0.44353199005126953,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.44353199005126953,
+            "expansion_similarity": 0.46136927604675293,
+            "relevance_score": 0.030776515151515152,
+            "ranking_metric": "RRF"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What retention accuracy did the adaptive planning system achieve?",
+      "expected_intent": "RESULTS",
+      "expected_sources": [
+        {
+          "filename": "adaptive_planning.pdf",
+          "page": 3
+        }
+      ],
+      "predicted_intent": "METHODOLOGY",
+      "confidence": 0.53419029712677,
+      "basic": {
+        "hits": {
+          "top_1": true,
+          "top_3": true,
+          "top_5": true
+        },
+        "all_expected_pages_top_5": true,
+        "chunks": [
+          {
+            "chunk_id": "adaptive_planning.pdf_p3_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 3,
+            "text": "Results and performance evaluation. The adaptive study planning system achieved a mean delayed retention accuracy of eighty percent, compared with seventy-two percent for the fixed schedule. Weekly quiz scores improved by nine percentage points. Average weekly study time was similar in both groups. These fictional outcomes describe this development fixture only and are not actual scientific findings.",
+            "similarity": 0.6523185968399048,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.6523185968399048,
+            "expansion_similarity": null,
+            "relevance_score": 0.6523185968399048,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p3_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 3,
+            "text": "Results. Fixed study planning achieved seventy-two percent mean delayed retention accuracy. The adaptive comparison group achieved eighty percent. The fixed system's performance was lower on weak topics, although its schedule had less administrative overhead. These numbers are invented for testing retrieval and must not be interpreted as published research findings.",
+            "similarity": 0.6035410761833191,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.6035410761833191,
+            "expansion_similarity": null,
+            "relevance_score": 0.6035410761833191,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p5_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 5,
+            "text": "Definition and terminology. Adaptive study planning means dynamically changing a learner's study schedule based on measured topic mastery. The concept refers to choosing what to study next using recent assessment data. In this system, low quiz scores increase the priority of a topic. Adaptive does not mean that students necessarily spend more time studying.",
+            "similarity": 0.575490415096283,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.575490415096283,
+            "expansion_similarity": null,
+            "relevance_score": 0.575490415096283,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p5_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 5,
+            "text": "Definition and comparison. Fixed study planning means following a predefined timetable that does not change with quiz performance. The adaptive approach differs from the fixed approach by updating topic priorities based on learner mastery. Fixed planning prioritizes predictability, while adaptive planning responds to assessment data. Both approaches can allocate the same total study time.",
+            "similarity": 0.5586953163146973,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.5586953163146973,
+            "expansion_similarity": null,
+            "relevance_score": 0.5586953163146973,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p2_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 2,
+            "text": "Methods and experimental procedure. The experiment randomly assigned sixty students to adaptive or fixed study planning for six weeks. Both groups studied identical biology material. Researchers collected weekly quizzes and a delayed retention test. The adaptive implementation updated topic priorities using quiz mastery scores. The fixed group used a predefined schedule. Evaluation used group mean retention and study time.",
+            "similarity": 0.549355685710907,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.549355685710907,
+            "expansion_similarity": null,
+            "relevance_score": 0.549355685710907,
+            "ranking_metric": "COSINE"
+          }
+        ]
+      },
+      "intent_aware": {
+        "hits": {
+          "top_1": true,
+          "top_3": true,
+          "top_5": true
+        },
+        "all_expected_pages_top_5": true,
+        "chunks": [
+          {
+            "chunk_id": "adaptive_planning.pdf_p3_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 3,
+            "text": "Results and performance evaluation. The adaptive study planning system achieved a mean delayed retention accuracy of eighty percent, compared with seventy-two percent for the fixed schedule. Weekly quiz scores improved by nine percentage points. Average weekly study time was similar in both groups. These fictional outcomes describe this development fixture only and are not actual scientific findings.",
+            "similarity": 0.6523185968399048,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC_FALLBACK",
+            "original_similarity": 0.6523185968399048,
+            "expansion_similarity": null,
+            "relevance_score": 0.6523185968399048,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p3_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 3,
+            "text": "Results. Fixed study planning achieved seventy-two percent mean delayed retention accuracy. The adaptive comparison group achieved eighty percent. The fixed system's performance was lower on weak topics, although its schedule had less administrative overhead. These numbers are invented for testing retrieval and must not be interpreted as published research findings.",
+            "similarity": 0.6035410761833191,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC_FALLBACK",
+            "original_similarity": 0.6035410761833191,
+            "expansion_similarity": null,
+            "relevance_score": 0.6035410761833191,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p5_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 5,
+            "text": "Definition and terminology. Adaptive study planning means dynamically changing a learner's study schedule based on measured topic mastery. The concept refers to choosing what to study next using recent assessment data. In this system, low quiz scores increase the priority of a topic. Adaptive does not mean that students necessarily spend more time studying.",
+            "similarity": 0.575490415096283,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC_FALLBACK",
+            "original_similarity": 0.575490415096283,
+            "expansion_similarity": null,
+            "relevance_score": 0.575490415096283,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p5_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 5,
+            "text": "Definition and comparison. Fixed study planning means following a predefined timetable that does not change with quiz performance. The adaptive approach differs from the fixed approach by updating topic priorities based on learner mastery. Fixed planning prioritizes predictability, while adaptive planning responds to assessment data. Both approaches can allocate the same total study time.",
+            "similarity": 0.5586953163146973,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC_FALLBACK",
+            "original_similarity": 0.5586953163146973,
+            "expansion_similarity": null,
+            "relevance_score": 0.5586953163146973,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p2_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 2,
+            "text": "Methods and experimental procedure. The experiment randomly assigned sixty students to adaptive or fixed study planning for six weeks. Both groups studied identical biology material. Researchers collected weekly quizzes and a delayed retention test. The adaptive implementation updated topic priorities using quiz mastery scores. The fixed group used a predefined schedule. Evaluation used group mean retention and study time.",
+            "similarity": 0.549355685710907,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC_FALLBACK",
+            "original_similarity": 0.549355685710907,
+            "expansion_similarity": null,
+            "relevance_score": 0.549355685710907,
+            "ranking_metric": "COSINE"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What measured scores did the fixed planning group obtain?",
+      "expected_intent": "RESULTS",
+      "expected_sources": [
+        {
+          "filename": "fixed_planning.pdf",
+          "page": 3
+        }
+      ],
+      "predicted_intent": "RESULTS",
+      "confidence": 0.6232756972312927,
+      "basic": {
+        "hits": {
+          "top_1": true,
+          "top_3": true,
+          "top_5": true
+        },
+        "all_expected_pages_top_5": true,
+        "chunks": [
+          {
+            "chunk_id": "fixed_planning.pdf_p3_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 3,
+            "text": "Results. Fixed study planning achieved seventy-two percent mean delayed retention accuracy. The adaptive comparison group achieved eighty percent. The fixed system's performance was lower on weak topics, although its schedule had less administrative overhead. These numbers are invented for testing retrieval and must not be interpreted as published research findings.",
+            "similarity": 0.5602564215660095,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.5602564215660095,
+            "expansion_similarity": null,
+            "relevance_score": 0.5602564215660095,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p2_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 2,
+            "text": "Methodology and experiment setup. Sixty students were randomly allocated to two conditions for six weeks. The fixed study planning group followed the same timetable each week, regardless of quiz results. Researchers used identical course material and collected weekly assessments and delayed retention scores. The experiment controlled total scheduled study time to compare planning approaches.",
+            "similarity": 0.5530198216438293,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.5530198216438293,
+            "expansion_similarity": null,
+            "relevance_score": 0.5530198216438293,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p3_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 3,
+            "text": "Results and performance evaluation. The adaptive study planning system achieved a mean delayed retention accuracy of eighty percent, compared with seventy-two percent for the fixed schedule. Weekly quiz scores improved by nine percentage points. Average weekly study time was similar in both groups. These fictional outcomes describe this development fixture only and are not actual scientific findings.",
+            "similarity": 0.5299976468086243,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.5299976468086243,
+            "expansion_similarity": null,
+            "relevance_score": 0.5299976468086243,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p5_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 5,
+            "text": "Definition and comparison. Fixed study planning means following a predefined timetable that does not change with quiz performance. The adaptive approach differs from the fixed approach by updating topic priorities based on learner mastery. Fixed planning prioritizes predictability, while adaptive planning responds to assessment data. Both approaches can allocate the same total study time.",
+            "similarity": 0.49679338932037354,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.49679338932037354,
+            "expansion_similarity": null,
+            "relevance_score": 0.49679338932037354,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p2_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 2,
+            "text": "Methods and experimental procedure. The experiment randomly assigned sixty students to adaptive or fixed study planning for six weeks. Both groups studied identical biology material. Researchers collected weekly quizzes and a delayed retention test. The adaptive implementation updated topic priorities using quiz mastery scores. The fixed group used a predefined schedule. Evaluation used group mean retention and study time.",
+            "similarity": 0.4379883408546448,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.4379883408546448,
+            "expansion_similarity": null,
+            "relevance_score": 0.4379883408546448,
+            "ranking_metric": "COSINE"
+          }
+        ]
+      },
+      "intent_aware": {
+        "hits": {
+          "top_1": true,
+          "top_3": true,
+          "top_5": true
+        },
+        "all_expected_pages_top_5": true,
+        "chunks": [
+          {
+            "chunk_id": "fixed_planning.pdf_p3_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 3,
+            "text": "Results. Fixed study planning achieved seventy-two percent mean delayed retention accuracy. The adaptive comparison group achieved eighty percent. The fixed system's performance was lower on weak topics, although its schedule had less administrative overhead. These numbers are invented for testing retrieval and must not be interpreted as published research findings.",
+            "similarity": 0.5602564215660095,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC_FALLBACK",
+            "original_similarity": 0.5602564215660095,
+            "expansion_similarity": null,
+            "relevance_score": 0.5602564215660095,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p2_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 2,
+            "text": "Methodology and experiment setup. Sixty students were randomly allocated to two conditions for six weeks. The fixed study planning group followed the same timetable each week, regardless of quiz results. Researchers used identical course material and collected weekly assessments and delayed retention scores. The experiment controlled total scheduled study time to compare planning approaches.",
+            "similarity": 0.5530198216438293,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC_FALLBACK",
+            "original_similarity": 0.5530198216438293,
+            "expansion_similarity": null,
+            "relevance_score": 0.5530198216438293,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p3_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 3,
+            "text": "Results and performance evaluation. The adaptive study planning system achieved a mean delayed retention accuracy of eighty percent, compared with seventy-two percent for the fixed schedule. Weekly quiz scores improved by nine percentage points. Average weekly study time was similar in both groups. These fictional outcomes describe this development fixture only and are not actual scientific findings.",
+            "similarity": 0.5299976468086243,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC_FALLBACK",
+            "original_similarity": 0.5299976468086243,
+            "expansion_similarity": null,
+            "relevance_score": 0.5299976468086243,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p5_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 5,
+            "text": "Definition and comparison. Fixed study planning means following a predefined timetable that does not change with quiz performance. The adaptive approach differs from the fixed approach by updating topic priorities based on learner mastery. Fixed planning prioritizes predictability, while adaptive planning responds to assessment data. Both approaches can allocate the same total study time.",
+            "similarity": 0.49679338932037354,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC_FALLBACK",
+            "original_similarity": 0.49679338932037354,
+            "expansion_similarity": null,
+            "relevance_score": 0.49679338932037354,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p2_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 2,
+            "text": "Methods and experimental procedure. The experiment randomly assigned sixty students to adaptive or fixed study planning for six weeks. Both groups studied identical biology material. Researchers collected weekly quizzes and a delayed retention test. The adaptive implementation updated topic priorities using quiz mastery scores. The fixed group used a predefined schedule. Evaluation used group mean retention and study time.",
+            "similarity": 0.4379883408546448,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC_FALLBACK",
+            "original_similarity": 0.4379883408546448,
+            "expansion_similarity": null,
+            "relevance_score": 0.4379883408546448,
+            "ranking_metric": "COSINE"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What prevents the adaptive planning trial from establishing long-term benefits?",
+      "expected_intent": "LIMITATIONS",
+      "expected_sources": [
+        {
+          "filename": "adaptive_planning.pdf",
+          "page": 4
+        }
+      ],
+      "predicted_intent": "LIMITATIONS",
+      "confidence": 0.8530027270317078,
+      "basic": {
+        "hits": {
+          "top_1": false,
+          "top_3": false,
+          "top_5": true
+        },
+        "all_expected_pages_top_5": true,
+        "chunks": [
+          {
+            "chunk_id": "adaptive_planning.pdf_p5_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 5,
+            "text": "Definition and terminology. Adaptive study planning means dynamically changing a learner's study schedule based on measured topic mastery. The concept refers to choosing what to study next using recent assessment data. In this system, low quiz scores increase the priority of a topic. Adaptive does not mean that students necessarily spend more time studying.",
+            "similarity": 0.5840840935707092,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.5840840935707092,
+            "expansion_similarity": null,
+            "relevance_score": 0.5840840935707092,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p5_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 5,
+            "text": "Definition and comparison. Fixed study planning means following a predefined timetable that does not change with quiz performance. The adaptive approach differs from the fixed approach by updating topic priorities based on learner mastery. Fixed planning prioritizes predictability, while adaptive planning responds to assessment data. Both approaches can allocate the same total study time.",
+            "similarity": 0.5652751326560974,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.5652751326560974,
+            "expansion_similarity": null,
+            "relevance_score": 0.5652751326560974,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p3_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 3,
+            "text": "Results and performance evaluation. The adaptive study planning system achieved a mean delayed retention accuracy of eighty percent, compared with seventy-two percent for the fixed schedule. Weekly quiz scores improved by nine percentage points. Average weekly study time was similar in both groups. These fictional outcomes describe this development fixture only and are not actual scientific findings.",
+            "similarity": 0.5438071489334106,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.5438071489334106,
+            "expansion_similarity": null,
+            "relevance_score": 0.5438071489334106,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p4_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 4,
+            "text": "Limitations and future work. The proposed adaptive approach falls short because the evaluation lasted only six weeks and used students at one institution. Weaknesses include a small sample and dependence on accurate quiz scores. Device availability constrains participation. The study cannot establish long-term learning benefits. Future work should evaluate other subjects and diverse students.",
+            "similarity": 0.5390963554382324,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.5390963554382324,
+            "expansion_similarity": null,
+            "relevance_score": 0.5390963554382324,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p1_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 1,
+            "text": "Overview and purpose. This research explores adaptive study planning for university students. The main idea is to adjust study tasks according to weekly quiz results rather than follow an unchanged timetable. The proposed system targets topics with low mastery. Key findings suggest better retention with adaptive planning, while the conclusion calls for longer evaluations across institutions.",
+            "similarity": 0.5084619522094727,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.5084619522094727,
+            "expansion_similarity": null,
+            "relevance_score": 0.5084619522094727,
+            "ranking_metric": "COSINE"
+          }
+        ]
+      },
+      "intent_aware": {
+        "hits": {
+          "top_1": false,
+          "top_3": true,
+          "top_5": true
+        },
+        "all_expected_pages_top_5": true,
+        "chunks": [
+          {
+            "chunk_id": "adaptive_planning.pdf_p5_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 5,
+            "text": "Definition and terminology. Adaptive study planning means dynamically changing a learner's study schedule based on measured topic mastery. The concept refers to choosing what to study next using recent assessment data. In this system, low quiz scores increase the priority of a topic. Adaptive does not mean that students necessarily spend more time studying.",
+            "similarity": 0.5840840935707092,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.5840840935707092,
+            "expansion_similarity": 0.5752261877059937,
+            "relevance_score": 0.03252247488101534,
+            "ranking_metric": "RRF"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p4_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 4,
+            "text": "Limitations and future work. The proposed adaptive approach falls short because the evaluation lasted only six weeks and used students at one institution. Weaknesses include a small sample and dependence on accurate quiz scores. Device availability constrains participation. The study cannot establish long-term learning benefits. Future work should evaluate other subjects and diverse students.",
+            "similarity": 0.5390963554382324,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.5390963554382324,
+            "expansion_similarity": 0.5958097577095032,
+            "relevance_score": 0.032018442622950824,
+            "ranking_metric": "RRF"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p5_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 5,
+            "text": "Definition and comparison. Fixed study planning means following a predefined timetable that does not change with quiz performance. The adaptive approach differs from the fixed approach by updating topic priorities based on learner mastery. Fixed planning prioritizes predictability, while adaptive planning responds to assessment data. Both approaches can allocate the same total study time.",
+            "similarity": 0.5652751326560974,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.5652751326560974,
+            "expansion_similarity": 0.5653026700019836,
+            "relevance_score": 0.03200204813108039,
+            "ranking_metric": "RRF"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p3_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 3,
+            "text": "Results and performance evaluation. The adaptive study planning system achieved a mean delayed retention accuracy of eighty percent, compared with seventy-two percent for the fixed schedule. Weekly quiz scores improved by nine percentage points. Average weekly study time was similar in both groups. These fictional outcomes describe this development fixture only and are not actual scientific findings.",
+            "similarity": 0.5438071489334106,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.5438071489334106,
+            "expansion_similarity": 0.521367073059082,
+            "relevance_score": 0.03149801587301587,
+            "ranking_metric": "RRF"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p1_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 1,
+            "text": "Overview and purpose. This research explores adaptive study planning for university students. The main idea is to adjust study tasks according to weekly quiz results rather than follow an unchanged timetable. The proposed system targets topics with low mastery. Key findings suggest better retention with adaptive planning, while the conclusion calls for longer evaluations across institutions.",
+            "similarity": 0.5084619522094727,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.5084619522094727,
+            "expansion_similarity": 0.5007029175758362,
+            "relevance_score": 0.03076923076923077,
+            "ranking_metric": "RRF"
+          }
+        ]
+      }
+    },
+    {
+      "question": "Why can a fixed schedule neglect a learner's weak topics?",
+      "expected_intent": "LIMITATIONS",
+      "expected_sources": [
+        {
+          "filename": "fixed_planning.pdf",
+          "page": 4
+        }
+      ],
+      "predicted_intent": "LIMITATIONS",
+      "confidence": 0.8090687990188599,
+      "basic": {
+        "hits": {
+          "top_1": true,
+          "top_3": true,
+          "top_5": true
+        },
+        "all_expected_pages_top_5": true,
+        "chunks": [
+          {
+            "chunk_id": "fixed_planning.pdf_p4_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 4,
+            "text": "Limitations and constraints. Fixed study planning cannot adapt its topic allocation when a learner struggles. The approach may waste time on already mastered concepts and neglect weaker topics. The evaluation used one institution and a short duration, limiting generalization. Future work could explore hybrid schedules that retain predictable timing while allowing topic adjustments.",
+            "similarity": 0.6618274450302124,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.6618274450302124,
+            "expansion_similarity": null,
+            "relevance_score": 0.6618274450302124,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p1_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 1,
+            "text": "Overview. This research studies fixed study planning as a simple approach to organizing university revision. Its main idea is to give every learner a stable predefined timetable. The purpose is predictable coverage of all course topics. The conclusion is that a fixed schedule is easy to implement but does not respond to changes in individual topic mastery.",
+            "similarity": 0.5536576509475708,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.5536576509475708,
+            "expansion_similarity": null,
+            "relevance_score": 0.5536576509475708,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p2_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 2,
+            "text": "Methods and experimental procedure. The experiment randomly assigned sixty students to adaptive or fixed study planning for six weeks. Both groups studied identical biology material. Researchers collected weekly quizzes and a delayed retention test. The adaptive implementation updated topic priorities using quiz mastery scores. The fixed group used a predefined schedule. Evaluation used group mean retention and study time.",
+            "similarity": 0.4439264237880707,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.4439264237880707,
+            "expansion_similarity": null,
+            "relevance_score": 0.4439264237880707,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p1_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 1,
+            "text": "Overview and purpose. This research explores adaptive study planning for university students. The main idea is to adjust study tasks according to weekly quiz results rather than follow an unchanged timetable. The proposed system targets topics with low mastery. Key findings suggest better retention with adaptive planning, while the conclusion calls for longer evaluations across institutions.",
+            "similarity": 0.41370484232902527,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.41370484232902527,
+            "expansion_similarity": null,
+            "relevance_score": 0.41370484232902527,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p5_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 5,
+            "text": "Definition and terminology. Adaptive study planning means dynamically changing a learner's study schedule based on measured topic mastery. The concept refers to choosing what to study next using recent assessment data. In this system, low quiz scores increase the priority of a topic. Adaptive does not mean that students necessarily spend more time studying.",
+            "similarity": 0.40266817808151245,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.40266817808151245,
+            "expansion_similarity": null,
+            "relevance_score": 0.40266817808151245,
+            "ranking_metric": "COSINE"
+          }
+        ]
+      },
+      "intent_aware": {
+        "hits": {
+          "top_1": true,
+          "top_3": true,
+          "top_5": true
+        },
+        "all_expected_pages_top_5": true,
+        "chunks": [
+          {
+            "chunk_id": "fixed_planning.pdf_p4_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 4,
+            "text": "Limitations and constraints. Fixed study planning cannot adapt its topic allocation when a learner struggles. The approach may waste time on already mastered concepts and neglect weaker topics. The evaluation used one institution and a short duration, limiting generalization. Future work could explore hybrid schedules that retain predictable timing while allowing topic adjustments.",
+            "similarity": 0.6618274450302124,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.6618274450302124,
+            "expansion_similarity": 0.7012559175491333,
+            "relevance_score": 0.03278688524590164,
+            "ranking_metric": "RRF"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p1_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 1,
+            "text": "Overview. This research studies fixed study planning as a simple approach to organizing university revision. Its main idea is to give every learner a stable predefined timetable. The purpose is predictable coverage of all course topics. The conclusion is that a fixed schedule is easy to implement but does not respond to changes in individual topic mastery.",
+            "similarity": 0.5536576509475708,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.5536576509475708,
+            "expansion_similarity": 0.5381954312324524,
+            "relevance_score": 0.03225806451612903,
+            "ranking_metric": "RRF"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p2_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 2,
+            "text": "Methods and experimental procedure. The experiment randomly assigned sixty students to adaptive or fixed study planning for six weeks. Both groups studied identical biology material. Researchers collected weekly quizzes and a delayed retention test. The adaptive implementation updated topic priorities using quiz mastery scores. The fixed group used a predefined schedule. Evaluation used group mean retention and study time.",
+            "similarity": 0.4439264237880707,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.4439264237880707,
+            "expansion_similarity": 0.42711764574050903,
+            "relevance_score": 0.031024531024531024,
+            "ranking_metric": "RRF"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p1_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 1,
+            "text": "Overview and purpose. This research explores adaptive study planning for university students. The main idea is to adjust study tasks according to weekly quiz results rather than follow an unchanged timetable. The proposed system targets topics with low mastery. Key findings suggest better retention with adaptive planning, while the conclusion calls for longer evaluations across institutions.",
+            "similarity": 0.41370484232902527,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.41370484232902527,
+            "expansion_similarity": 0.4271497130393982,
+            "relevance_score": 0.031009615384615385,
+            "ranking_metric": "RRF"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p4_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 4,
+            "text": "Limitations and future work. The proposed adaptive approach falls short because the evaluation lasted only six weeks and used students at one institution. Weaknesses include a small sample and dependence on accurate quiz scores. Device availability constrains participation. The study cannot establish long-term learning benefits. Future work should evaluate other subjects and diverse students.",
+            "similarity": 0.3845188319683075,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.3845188319683075,
+            "expansion_similarity": 0.5180764198303223,
+            "relevance_score": 0.03057889822595705,
+            "ranking_metric": "RRF"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How do fixed and adaptive planning differ in their response to quiz scores?",
+      "expected_intent": "COMPARISON",
+      "expected_sources": [
+        {
+          "filename": "fixed_planning.pdf",
+          "page": 5
+        }
+      ],
+      "predicted_intent": "COMPARISON",
+      "confidence": 0.7952719330787659,
+      "basic": {
+        "hits": {
+          "top_1": true,
+          "top_3": true,
+          "top_5": true
+        },
+        "all_expected_pages_top_5": true,
+        "chunks": [
+          {
+            "chunk_id": "fixed_planning.pdf_p5_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 5,
+            "text": "Definition and comparison. Fixed study planning means following a predefined timetable that does not change with quiz performance. The adaptive approach differs from the fixed approach by updating topic priorities based on learner mastery. Fixed planning prioritizes predictability, while adaptive planning responds to assessment data. Both approaches can allocate the same total study time.",
+            "similarity": 0.7289333343505859,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.7289333343505859,
+            "expansion_similarity": null,
+            "relevance_score": 0.7289333343505859,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p3_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 3,
+            "text": "Results and performance evaluation. The adaptive study planning system achieved a mean delayed retention accuracy of eighty percent, compared with seventy-two percent for the fixed schedule. Weekly quiz scores improved by nine percentage points. Average weekly study time was similar in both groups. These fictional outcomes describe this development fixture only and are not actual scientific findings.",
+            "similarity": 0.724859893321991,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.724859893321991,
+            "expansion_similarity": null,
+            "relevance_score": 0.724859893321991,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p5_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 5,
+            "text": "Definition and terminology. Adaptive study planning means dynamically changing a learner's study schedule based on measured topic mastery. The concept refers to choosing what to study next using recent assessment data. In this system, low quiz scores increase the priority of a topic. Adaptive does not mean that students necessarily spend more time studying.",
+            "similarity": 0.6755876541137695,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.6755876541137695,
+            "expansion_similarity": null,
+            "relevance_score": 0.6755876541137695,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p2_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 2,
+            "text": "Methods and experimental procedure. The experiment randomly assigned sixty students to adaptive or fixed study planning for six weeks. Both groups studied identical biology material. Researchers collected weekly quizzes and a delayed retention test. The adaptive implementation updated topic priorities using quiz mastery scores. The fixed group used a predefined schedule. Evaluation used group mean retention and study time.",
+            "similarity": 0.670830488204956,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.670830488204956,
+            "expansion_similarity": null,
+            "relevance_score": 0.670830488204956,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p1_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 1,
+            "text": "Overview and purpose. This research explores adaptive study planning for university students. The main idea is to adjust study tasks according to weekly quiz results rather than follow an unchanged timetable. The proposed system targets topics with low mastery. Key findings suggest better retention with adaptive planning, while the conclusion calls for longer evaluations across institutions.",
+            "similarity": 0.6248672604560852,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.6248672604560852,
+            "expansion_similarity": null,
+            "relevance_score": 0.6248672604560852,
+            "ranking_metric": "COSINE"
+          }
+        ]
+      },
+      "intent_aware": {
+        "hits": {
+          "top_1": true,
+          "top_3": true,
+          "top_5": true
+        },
+        "all_expected_pages_top_5": true,
+        "chunks": [
+          {
+            "chunk_id": "fixed_planning.pdf_p5_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 5,
+            "text": "Definition and comparison. Fixed study planning means following a predefined timetable that does not change with quiz performance. The adaptive approach differs from the fixed approach by updating topic priorities based on learner mastery. Fixed planning prioritizes predictability, while adaptive planning responds to assessment data. Both approaches can allocate the same total study time.",
+            "similarity": 0.7289333343505859,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "COMPARISON_DIVERSITY",
+            "original_similarity": 0.7289333343505859,
+            "expansion_similarity": null,
+            "relevance_score": 0.7289333343505859,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p3_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 3,
+            "text": "Results and performance evaluation. The adaptive study planning system achieved a mean delayed retention accuracy of eighty percent, compared with seventy-two percent for the fixed schedule. Weekly quiz scores improved by nine percentage points. Average weekly study time was similar in both groups. These fictional outcomes describe this development fixture only and are not actual scientific findings.",
+            "similarity": 0.724859893321991,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "COMPARISON_DIVERSITY",
+            "original_similarity": 0.724859893321991,
+            "expansion_similarity": null,
+            "relevance_score": 0.724859893321991,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p5_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 5,
+            "text": "Definition and terminology. Adaptive study planning means dynamically changing a learner's study schedule based on measured topic mastery. The concept refers to choosing what to study next using recent assessment data. In this system, low quiz scores increase the priority of a topic. Adaptive does not mean that students necessarily spend more time studying.",
+            "similarity": 0.6755876541137695,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "COMPARISON_DIVERSITY",
+            "original_similarity": 0.6755876541137695,
+            "expansion_similarity": null,
+            "relevance_score": 0.6755876541137695,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p2_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 2,
+            "text": "Methods and experimental procedure. The experiment randomly assigned sixty students to adaptive or fixed study planning for six weeks. Both groups studied identical biology material. Researchers collected weekly quizzes and a delayed retention test. The adaptive implementation updated topic priorities using quiz mastery scores. The fixed group used a predefined schedule. Evaluation used group mean retention and study time.",
+            "similarity": 0.670830488204956,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "COMPARISON_DIVERSITY",
+            "original_similarity": 0.670830488204956,
+            "expansion_similarity": null,
+            "relevance_score": 0.670830488204956,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p1_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 1,
+            "text": "Overview and purpose. This research explores adaptive study planning for university students. The main idea is to adjust study tasks according to weekly quiz results rather than follow an unchanged timetable. The proposed system targets topics with low mastery. Key findings suggest better retention with adaptive planning, while the conclusion calls for longer evaluations across institutions.",
+            "similarity": 0.6248672604560852,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "COMPARISON_DIVERSITY",
+            "original_similarity": 0.6248672604560852,
+            "expansion_similarity": null,
+            "relevance_score": 0.6248672604560852,
+            "ranking_metric": "COSINE"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What delayed retention scores distinguish the adaptive and fixed approaches?",
+      "expected_intent": "COMPARISON",
+      "expected_sources": [
+        {
+          "filename": "adaptive_planning.pdf",
+          "page": 3
+        },
+        {
+          "filename": "fixed_planning.pdf",
+          "page": 3
+        }
+      ],
+      "predicted_intent": "COMPARISON",
+      "confidence": 0.679467499256134,
+      "basic": {
+        "hits": {
+          "top_1": true,
+          "top_3": true,
+          "top_5": true
+        },
+        "all_expected_pages_top_5": true,
+        "chunks": [
+          {
+            "chunk_id": "fixed_planning.pdf_p3_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 3,
+            "text": "Results. Fixed study planning achieved seventy-two percent mean delayed retention accuracy. The adaptive comparison group achieved eighty percent. The fixed system's performance was lower on weak topics, although its schedule had less administrative overhead. These numbers are invented for testing retrieval and must not be interpreted as published research findings.",
+            "similarity": 0.6671874523162842,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.6671874523162842,
+            "expansion_similarity": null,
+            "relevance_score": 0.6671874523162842,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p3_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 3,
+            "text": "Results and performance evaluation. The adaptive study planning system achieved a mean delayed retention accuracy of eighty percent, compared with seventy-two percent for the fixed schedule. Weekly quiz scores improved by nine percentage points. Average weekly study time was similar in both groups. These fictional outcomes describe this development fixture only and are not actual scientific findings.",
+            "similarity": 0.6457931995391846,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.6457931995391846,
+            "expansion_similarity": null,
+            "relevance_score": 0.6457931995391846,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p2_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 2,
+            "text": "Methods and experimental procedure. The experiment randomly assigned sixty students to adaptive or fixed study planning for six weeks. Both groups studied identical biology material. Researchers collected weekly quizzes and a delayed retention test. The adaptive implementation updated topic priorities using quiz mastery scores. The fixed group used a predefined schedule. Evaluation used group mean retention and study time.",
+            "similarity": 0.6102133989334106,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.6102133989334106,
+            "expansion_similarity": null,
+            "relevance_score": 0.6102133989334106,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p4_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 4,
+            "text": "Limitations and future work. The proposed adaptive approach falls short because the evaluation lasted only six weeks and used students at one institution. Weaknesses include a small sample and dependence on accurate quiz scores. Device availability constrains participation. The study cannot establish long-term learning benefits. Future work should evaluate other subjects and diverse students.",
+            "similarity": 0.5552988052368164,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.5552988052368164,
+            "expansion_similarity": null,
+            "relevance_score": 0.5552988052368164,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p1_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 1,
+            "text": "Overview and purpose. This research explores adaptive study planning for university students. The main idea is to adjust study tasks according to weekly quiz results rather than follow an unchanged timetable. The proposed system targets topics with low mastery. Key findings suggest better retention with adaptive planning, while the conclusion calls for longer evaluations across institutions.",
+            "similarity": 0.5110872387886047,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.5110872387886047,
+            "expansion_similarity": null,
+            "relevance_score": 0.5110872387886047,
+            "ranking_metric": "COSINE"
+          }
+        ]
+      },
+      "intent_aware": {
+        "hits": {
+          "top_1": true,
+          "top_3": true,
+          "top_5": true
+        },
+        "all_expected_pages_top_5": true,
+        "chunks": [
+          {
+            "chunk_id": "fixed_planning.pdf_p3_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 3,
+            "text": "Results. Fixed study planning achieved seventy-two percent mean delayed retention accuracy. The adaptive comparison group achieved eighty percent. The fixed system's performance was lower on weak topics, although its schedule had less administrative overhead. These numbers are invented for testing retrieval and must not be interpreted as published research findings.",
+            "similarity": 0.6671874523162842,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC_FALLBACK",
+            "original_similarity": 0.6671874523162842,
+            "expansion_similarity": null,
+            "relevance_score": 0.6671874523162842,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p3_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 3,
+            "text": "Results and performance evaluation. The adaptive study planning system achieved a mean delayed retention accuracy of eighty percent, compared with seventy-two percent for the fixed schedule. Weekly quiz scores improved by nine percentage points. Average weekly study time was similar in both groups. These fictional outcomes describe this development fixture only and are not actual scientific findings.",
+            "similarity": 0.6457931995391846,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC_FALLBACK",
+            "original_similarity": 0.6457931995391846,
+            "expansion_similarity": null,
+            "relevance_score": 0.6457931995391846,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p2_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 2,
+            "text": "Methods and experimental procedure. The experiment randomly assigned sixty students to adaptive or fixed study planning for six weeks. Both groups studied identical biology material. Researchers collected weekly quizzes and a delayed retention test. The adaptive implementation updated topic priorities using quiz mastery scores. The fixed group used a predefined schedule. Evaluation used group mean retention and study time.",
+            "similarity": 0.6102133989334106,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC_FALLBACK",
+            "original_similarity": 0.6102133989334106,
+            "expansion_similarity": null,
+            "relevance_score": 0.6102133989334106,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p4_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 4,
+            "text": "Limitations and future work. The proposed adaptive approach falls short because the evaluation lasted only six weeks and used students at one institution. Weaknesses include a small sample and dependence on accurate quiz scores. Device availability constrains participation. The study cannot establish long-term learning benefits. Future work should evaluate other subjects and diverse students.",
+            "similarity": 0.5552988052368164,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC_FALLBACK",
+            "original_similarity": 0.5552988052368164,
+            "expansion_similarity": null,
+            "relevance_score": 0.5552988052368164,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p1_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 1,
+            "text": "Overview and purpose. This research explores adaptive study planning for university students. The main idea is to adjust study tasks according to weekly quiz results rather than follow an unchanged timetable. The proposed system targets topics with low mastery. Key findings suggest better retention with adaptive planning, while the conclusion calls for longer evaluations across institutions.",
+            "similarity": 0.5110872387886047,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC_FALLBACK",
+            "original_similarity": 0.5110872387886047,
+            "expansion_similarity": null,
+            "relevance_score": 0.5110872387886047,
+            "ranking_metric": "COSINE"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What does adaptive study planning mean in the authors' terminology?",
+      "expected_intent": "DEFINITION",
+      "expected_sources": [
+        {
+          "filename": "adaptive_planning.pdf",
+          "page": 5
+        }
+      ],
+      "predicted_intent": "DEFINITION",
+      "confidence": 0.8227402567863464,
+      "basic": {
+        "hits": {
+          "top_1": true,
+          "top_3": true,
+          "top_5": true
+        },
+        "all_expected_pages_top_5": true,
+        "chunks": [
+          {
+            "chunk_id": "adaptive_planning.pdf_p5_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 5,
+            "text": "Definition and terminology. Adaptive study planning means dynamically changing a learner's study schedule based on measured topic mastery. The concept refers to choosing what to study next using recent assessment data. In this system, low quiz scores increase the priority of a topic. Adaptive does not mean that students necessarily spend more time studying.",
+            "similarity": 0.8581177592277527,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.8581177592277527,
+            "expansion_similarity": null,
+            "relevance_score": 0.8581177592277527,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p5_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 5,
+            "text": "Definition and comparison. Fixed study planning means following a predefined timetable that does not change with quiz performance. The adaptive approach differs from the fixed approach by updating topic priorities based on learner mastery. Fixed planning prioritizes predictability, while adaptive planning responds to assessment data. Both approaches can allocate the same total study time.",
+            "similarity": 0.782890796661377,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.782890796661377,
+            "expansion_similarity": null,
+            "relevance_score": 0.782890796661377,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p1_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 1,
+            "text": "Overview and purpose. This research explores adaptive study planning for university students. The main idea is to adjust study tasks according to weekly quiz results rather than follow an unchanged timetable. The proposed system targets topics with low mastery. Key findings suggest better retention with adaptive planning, while the conclusion calls for longer evaluations across institutions.",
+            "similarity": 0.7134264707565308,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.7134264707565308,
+            "expansion_similarity": null,
+            "relevance_score": 0.7134264707565308,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p3_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 3,
+            "text": "Results and performance evaluation. The adaptive study planning system achieved a mean delayed retention accuracy of eighty percent, compared with seventy-two percent for the fixed schedule. Weekly quiz scores improved by nine percentage points. Average weekly study time was similar in both groups. These fictional outcomes describe this development fixture only and are not actual scientific findings.",
+            "similarity": 0.6722991466522217,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.6722991466522217,
+            "expansion_similarity": null,
+            "relevance_score": 0.6722991466522217,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p2_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 2,
+            "text": "Methods and experimental procedure. The experiment randomly assigned sixty students to adaptive or fixed study planning for six weeks. Both groups studied identical biology material. Researchers collected weekly quizzes and a delayed retention test. The adaptive implementation updated topic priorities using quiz mastery scores. The fixed group used a predefined schedule. Evaluation used group mean retention and study time.",
+            "similarity": 0.6664403676986694,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.6664403676986694,
+            "expansion_similarity": null,
+            "relevance_score": 0.6664403676986694,
+            "ranking_metric": "COSINE"
+          }
+        ]
+      },
+      "intent_aware": {
+        "hits": {
+          "top_1": true,
+          "top_3": true,
+          "top_5": true
+        },
+        "all_expected_pages_top_5": true,
+        "chunks": [
+          {
+            "chunk_id": "adaptive_planning.pdf_p5_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 5,
+            "text": "Definition and terminology. Adaptive study planning means dynamically changing a learner's study schedule based on measured topic mastery. The concept refers to choosing what to study next using recent assessment data. In this system, low quiz scores increase the priority of a topic. Adaptive does not mean that students necessarily spend more time studying.",
+            "similarity": 0.8581177592277527,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.8581177592277527,
+            "expansion_similarity": 0.855277955532074,
+            "relevance_score": 0.03278688524590164,
+            "ranking_metric": "RRF"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p5_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 5,
+            "text": "Definition and comparison. Fixed study planning means following a predefined timetable that does not change with quiz performance. The adaptive approach differs from the fixed approach by updating topic priorities based on learner mastery. Fixed planning prioritizes predictability, while adaptive planning responds to assessment data. Both approaches can allocate the same total study time.",
+            "similarity": 0.782890796661377,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.782890796661377,
+            "expansion_similarity": 0.7379659414291382,
+            "relevance_score": 0.03225806451612903,
+            "ranking_metric": "RRF"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p1_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 1,
+            "text": "Overview and purpose. This research explores adaptive study planning for university students. The main idea is to adjust study tasks according to weekly quiz results rather than follow an unchanged timetable. The proposed system targets topics with low mastery. Key findings suggest better retention with adaptive planning, while the conclusion calls for longer evaluations across institutions.",
+            "similarity": 0.7134264707565308,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.7134264707565308,
+            "expansion_similarity": 0.6637210845947266,
+            "relevance_score": 0.031746031746031744,
+            "ranking_metric": "RRF"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p2_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 2,
+            "text": "Methods and experimental procedure. The experiment randomly assigned sixty students to adaptive or fixed study planning for six weeks. Both groups studied identical biology material. Researchers collected weekly quizzes and a delayed retention test. The adaptive implementation updated topic priorities using quiz mastery scores. The fixed group used a predefined schedule. Evaluation used group mean retention and study time.",
+            "similarity": 0.6664403676986694,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.6664403676986694,
+            "expansion_similarity": 0.5994419455528259,
+            "relevance_score": 0.031009615384615385,
+            "ranking_metric": "RRF"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p3_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 3,
+            "text": "Results and performance evaluation. The adaptive study planning system achieved a mean delayed retention accuracy of eighty percent, compared with seventy-two percent for the fixed schedule. Weekly quiz scores improved by nine percentage points. Average weekly study time was similar in both groups. These fictional outcomes describe this development fixture only and are not actual scientific findings.",
+            "similarity": 0.6722991466522217,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.6722991466522217,
+            "expansion_similarity": 0.5992177724838257,
+            "relevance_score": 0.031009615384615385,
+            "ranking_metric": "RRF"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What is meant by fixed study planning?",
+      "expected_intent": "DEFINITION",
+      "expected_sources": [
+        {
+          "filename": "fixed_planning.pdf",
+          "page": 5
+        }
+      ],
+      "predicted_intent": "DEFINITION",
+      "confidence": 0.7863211035728455,
+      "basic": {
+        "hits": {
+          "top_1": true,
+          "top_3": true,
+          "top_5": true
+        },
+        "all_expected_pages_top_5": true,
+        "chunks": [
+          {
+            "chunk_id": "fixed_planning.pdf_p5_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 5,
+            "text": "Definition and comparison. Fixed study planning means following a predefined timetable that does not change with quiz performance. The adaptive approach differs from the fixed approach by updating topic priorities based on learner mastery. Fixed planning prioritizes predictability, while adaptive planning responds to assessment data. Both approaches can allocate the same total study time.",
+            "similarity": 0.8099039793014526,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.8099039793014526,
+            "expansion_similarity": null,
+            "relevance_score": 0.8099039793014526,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p1_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 1,
+            "text": "Overview. This research studies fixed study planning as a simple approach to organizing university revision. Its main idea is to give every learner a stable predefined timetable. The purpose is predictable coverage of all course topics. The conclusion is that a fixed schedule is easy to implement but does not respond to changes in individual topic mastery.",
+            "similarity": 0.7334638833999634,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.7334638833999634,
+            "expansion_similarity": null,
+            "relevance_score": 0.7334638833999634,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p4_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 4,
+            "text": "Limitations and constraints. Fixed study planning cannot adapt its topic allocation when a learner struggles. The approach may waste time on already mastered concepts and neglect weaker topics. The evaluation used one institution and a short duration, limiting generalization. Future work could explore hybrid schedules that retain predictable timing while allowing topic adjustments.",
+            "similarity": 0.7058277130126953,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.7058277130126953,
+            "expansion_similarity": null,
+            "relevance_score": 0.7058277130126953,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p1_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 1,
+            "text": "Overview and purpose. This research explores adaptive study planning for university students. The main idea is to adjust study tasks according to weekly quiz results rather than follow an unchanged timetable. The proposed system targets topics with low mastery. Key findings suggest better retention with adaptive planning, while the conclusion calls for longer evaluations across institutions.",
+            "similarity": 0.6809611916542053,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.6809611916542053,
+            "expansion_similarity": null,
+            "relevance_score": 0.6809611916542053,
+            "ranking_metric": "COSINE"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p2_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 2,
+            "text": "Methodology and experiment setup. Sixty students were randomly allocated to two conditions for six weeks. The fixed study planning group followed the same timetable each week, regardless of quiz results. Researchers used identical course material and collected weekly assessments and delayed retention scores. The experiment controlled total scheduled study time to compare planning approaches.",
+            "similarity": 0.6530792713165283,
+            "retrieval_origin": "ORIGINAL",
+            "retrieval_mode": "BASIC",
+            "original_similarity": 0.6530792713165283,
+            "expansion_similarity": null,
+            "relevance_score": 0.6530792713165283,
+            "ranking_metric": "COSINE"
+          }
+        ]
+      },
+      "intent_aware": {
+        "hits": {
+          "top_1": true,
+          "top_3": true,
+          "top_5": true
+        },
+        "all_expected_pages_top_5": true,
+        "chunks": [
+          {
+            "chunk_id": "fixed_planning.pdf_p5_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 5,
+            "text": "Definition and comparison. Fixed study planning means following a predefined timetable that does not change with quiz performance. The adaptive approach differs from the fixed approach by updating topic priorities based on learner mastery. Fixed planning prioritizes predictability, while adaptive planning responds to assessment data. Both approaches can allocate the same total study time.",
+            "similarity": 0.8099039793014526,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.8099039793014526,
+            "expansion_similarity": 0.7515012621879578,
+            "relevance_score": 0.03278688524590164,
+            "ranking_metric": "RRF"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p1_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 1,
+            "text": "Overview. This research studies fixed study planning as a simple approach to organizing university revision. Its main idea is to give every learner a stable predefined timetable. The purpose is predictable coverage of all course topics. The conclusion is that a fixed schedule is easy to implement but does not respond to changes in individual topic mastery.",
+            "similarity": 0.7334638833999634,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.7334638833999634,
+            "expansion_similarity": 0.6385311484336853,
+            "relevance_score": 0.03200204813108039,
+            "ranking_metric": "RRF"
+          },
+          {
+            "chunk_id": "fixed_planning.pdf_p4_c1",
+            "filename": "fixed_planning.pdf",
+            "page": 4,
+            "text": "Limitations and constraints. Fixed study planning cannot adapt its topic allocation when a learner struggles. The approach may waste time on already mastered concepts and neglect weaker topics. The evaluation used one institution and a short duration, limiting generalization. Future work could explore hybrid schedules that retain predictable timing while allowing topic adjustments.",
+            "similarity": 0.7058277130126953,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.7058277130126953,
+            "expansion_similarity": 0.6452913284301758,
+            "relevance_score": 0.03200204813108039,
+            "ranking_metric": "RRF"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p1_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 1,
+            "text": "Overview and purpose. This research explores adaptive study planning for university students. The main idea is to adjust study tasks according to weekly quiz results rather than follow an unchanged timetable. The proposed system targets topics with low mastery. Key findings suggest better retention with adaptive planning, while the conclusion calls for longer evaluations across institutions.",
+            "similarity": 0.6809611916542053,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.6809611916542053,
+            "expansion_similarity": 0.5729320645332336,
+            "relevance_score": 0.031009615384615385,
+            "ranking_metric": "RRF"
+          },
+          {
+            "chunk_id": "adaptive_planning.pdf_p5_c1",
+            "filename": "adaptive_planning.pdf",
+            "page": 5,
+            "text": "Definition and terminology. Adaptive study planning means dynamically changing a learner's study schedule based on measured topic mastery. The concept refers to choosing what to study next using recent assessment data. In this system, low quiz scores increase the priority of a topic. Adaptive does not mean that students necessarily spend more time studying.",
+            "similarity": 0.6412533521652222,
+            "retrieval_origin": "BOTH",
+            "retrieval_mode": "INTENT_EXPANSION",
+            "original_similarity": 0.6412533521652222,
+            "expansion_similarity": 0.6326681971549988,
+            "relevance_score": 0.030776515151515152,
+            "ranking_metric": "RRF"
+          }
+        ]
+      }
+    }
+  ],
+  "dataset": "Unchanged Phase 6 artificial planning papers plus unrelated ocean page; not real research.",
+  "fixture_sha256": "24e4bf3701d50af31e0159958fb87db83ec28ecc7fb228246bd3481ae886840a",
+  "questions_sha256": "5b012396700dcd9e53f25e0d5deeda743f945c7014bddfa57319904ec80b552e",
+  "model_sha256": "71c3c0f805767778d7089235f4f21e8c7774f16bf3a05ff719f9620194b40b60",
+  "page_count": 11,
+  "chunk_count": 11,
+  "hit_definition": "At least one manually labeled (filename, page) occurs within the first k of the same five selected chunks.",
+  "limitations": "Small synthetic fixture. Page hits do not measure passage completeness, precision, factual answers, or broad generalization. Labels were authored before running retrieval and were not adjusted to scores."
+}

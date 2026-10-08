@@ -1,0 +1,30 @@
+[theme]
+base = "light"
+primaryColor = "#176B55"
+backgroundColor = "#FCFCFA"
+secondaryBackgroundColor = "#F0F3EF"
+textColor = "#1C3029"
+borderColor = "#D7DFD8"
+font = "sans-serif"
+headingFontSizes = ["2.25rem", "1.75rem", "1.25rem", "1.125rem", "1rem", "0.875rem"]
+headingFontWeights = [650, 600, 600, 600, 600, 600]
+baseRadius = "8px"
+buttonRadius = "8px"
+showWidgetBorder = true
+showSidebarBorder = true
+
+[theme.sidebar]
+backgroundColor = "#F0F3EF"
+secondaryBackgroundColor = "#FCFCFA"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+# Public browsers receive generic messages for unexpected exceptions.
+showErrorDetails = "none"
+
+[server]
+# Avoid lazy optional Transformers imports during Streamlit's module scan.
+fileWatcherType = "none"

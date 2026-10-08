@@ -1,0 +1,13 @@
+# Python 3.12. Pin the working runtime; use CPU wheels on Linux/Windows.
+--extra-index-url https://download.pytorch.org/whl/cpu
+streamlit==1.65.0
+PyMuPDF==1.28.2
+sentence-transformers==5.7.0
+faiss-cpu==1.15.1
+numpy==2.5.3
+google-genai==1.75.0
+torch==2.14.1+cpu; sys_platform != "darwin"
+torch==2.14.1; sys_platform == "darwin"
+scikit-learn==1.9.1
+# Keep the tested encoder dependency stable across fresh installations.
+transformers==5.18.0

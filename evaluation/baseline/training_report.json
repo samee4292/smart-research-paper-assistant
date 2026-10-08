@@ -1,0 +1,1057 @@
+{
+  "config": {
+    "architecture": {
+      "input_dim": 384,
+      "hidden_dims": [
+        128,
+        64
+      ],
+      "dropout": 0.2,
+      "num_classes": 6
+    },
+    "labels": [
+      "SUMMARY",
+      "COMPARISON",
+      "METHODOLOGY",
+      "RESULTS",
+      "LIMITATIONS",
+      "DEFINITION"
+    ],
+    "label_to_index": {
+      "SUMMARY": 0,
+      "COMPARISON": 1,
+      "METHODOLOGY": 2,
+      "RESULTS": 3,
+      "LIMITATIONS": 4,
+      "DEFINITION": 5
+    },
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "normalize_embeddings": true,
+    "seed": 42,
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "max_epochs": 150,
+    "patience": 20,
+    "best_epoch": 24,
+    "split_ratios": [
+      0.7,
+      0.15,
+      0.15
+    ],
+    "dataset_sha256": "62b84fac688eecd40fe7b5730283c5805032b2f1cc2fa36d058c9e2b275fc332",
+    "torch_version": "2.14.1+cpu"
+  },
+  "metrics": {
+    "train": {
+      "loss": 0.050383854657411575,
+      "accuracy": 1.0
+    },
+    "validation": {
+      "loss": 0.385170578956604,
+      "accuracy": 0.9111111164093018
+    },
+    "test": {
+      "loss": 0.41183793544769287,
+      "accuracy": 0.8444444537162781
+    }
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.7893208310717628,
+      "train_accuracy": 0.1761904761904762,
+      "validation_loss": 1.7792627811431885,
+      "validation_accuracy": 0.2222222238779068
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.7710518632616317,
+      "train_accuracy": 0.3142857142857143,
+      "validation_loss": 1.7600362300872803,
+      "validation_accuracy": 0.4888888895511627
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.7436357430049352,
+      "train_accuracy": 0.6761904761904762,
+      "validation_loss": 1.727196455001831,
+      "validation_accuracy": 0.8222222328186035
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.6986417395727975,
+      "train_accuracy": 0.861904761904762,
+      "validation_loss": 1.67447030544281,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.625580680937994,
+      "train_accuracy": 0.8904761904761904,
+      "validation_loss": 1.5938475131988525,
+      "validation_accuracy": 0.8666666746139526
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.51943135148003,
+      "train_accuracy": 0.8428571428571429,
+      "validation_loss": 1.478546142578125,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.3633269468943279,
+      "train_accuracy": 0.8428571428571429,
+      "validation_loss": 1.3311340808868408,
+      "validation_accuracy": 0.8444444537162781
+    },
+    {
+      "epoch": 8,
+      "train_loss": 1.1962099404562088,
+      "train_accuracy": 0.8333333333333334,
+      "validation_loss": 1.1586519479751587,
+      "validation_accuracy": 0.8444444537162781
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.9773439833096096,
+      "train_accuracy": 0.9047619047619048,
+      "validation_loss": 0.9793128967285156,
+      "validation_accuracy": 0.8888888955116272
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.7893200159072876,
+      "train_accuracy": 0.9238095238095239,
+      "validation_loss": 0.8084253668785095,
+      "validation_accuracy": 0.8888888955116272
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.6180497265997387,
+      "train_accuracy": 0.9333333333333333,
+      "validation_loss": 0.6754456162452698,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.4717628090154557,
+      "train_accuracy": 0.9523809523809523,
+      "validation_loss": 0.5717414617538452,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.3819208454518091,
+      "train_accuracy": 0.9333333333333333,
+      "validation_loss": 0.5003872513771057,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.2945355245045253,
+      "train_accuracy": 0.9476190476190476,
+      "validation_loss": 0.45492008328437805,
+      "validation_accuracy": 0.9333333373069763
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.2396395362558819,
+      "train_accuracy": 0.9619047619047619,
+      "validation_loss": 0.4263422191143036,
+      "validation_accuracy": 0.9333333373069763
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.2168629424912589,
+      "train_accuracy": 0.9619047619047619,
+      "validation_loss": 0.41457465291023254,
+      "validation_accuracy": 0.9333333373069763
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.18019241662252516,
+      "train_accuracy": 0.9619047619047619,
+      "validation_loss": 0.40054866671562195,
+      "validation_accuracy": 0.8888888955116272
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.15218054283232915,
+      "train_accuracy": 0.9666666666666667,
+      "validation_loss": 0.39540430903434753,
+      "validation_accuracy": 0.8888888955116272
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.12715666932719094,
+      "train_accuracy": 0.9809523809523809,
+      "validation_loss": 0.3937881588935852,
+      "validation_accuracy": 0.9333333373069763
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.12014017782750584,
+      "train_accuracy": 0.9809523809523809,
+      "validation_loss": 0.3861452639102936,
+      "validation_accuracy": 0.9333333373069763
+    },
+    {
+      "epoch": 21,
+      "train_loss": 0.09177872403746559,
+      "train_accuracy": 0.9952380952380953,
+      "validation_loss": 0.3861806094646454,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 22,
+      "train_loss": 0.08658081016370228,
+      "train_accuracy": 0.9904761904761905,
+      "validation_loss": 0.39040395617485046,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 23,
+      "train_loss": 0.07705731624293895,
+      "train_accuracy": 0.9952380952380953,
+      "validation_loss": 0.39091795682907104,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 24,
+      "train_loss": 0.07169167608732269,
+      "train_accuracy": 0.9952380952380953,
+      "validation_loss": 0.385170578956604,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 25,
+      "train_loss": 0.06442222086091837,
+      "train_accuracy": 0.9952380952380953,
+      "validation_loss": 0.38539472222328186,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 26,
+      "train_loss": 0.060797133190291265,
+      "train_accuracy": 1.0,
+      "validation_loss": 0.3923165202140808,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 27,
+      "train_loss": 0.05231267696335202,
+      "train_accuracy": 1.0,
+      "validation_loss": 0.3937895596027374,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 28,
+      "train_loss": 0.04159252647133101,
+      "train_accuracy": 1.0,
+      "validation_loss": 0.40005141496658325,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 29,
+      "train_loss": 0.04324680148136048,
+      "train_accuracy": 1.0,
+      "validation_loss": 0.40043318271636963,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 30,
+      "train_loss": 0.03535689589168344,
+      "train_accuracy": 0.9952380952380953,
+      "validation_loss": 0.40229088068008423,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 31,
+      "train_loss": 0.03759349300747826,
+      "train_accuracy": 1.0,
+      "validation_loss": 0.40417563915252686,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 32,
+      "train_loss": 0.03407060064020611,
+      "train_accuracy": 1.0,
+      "validation_loss": 0.4115786552429199,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 33,
+      "train_loss": 0.027352423930451984,
+      "train_accuracy": 1.0,
+      "validation_loss": 0.4082382619380951,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 34,
+      "train_loss": 0.024864229205108824,
+      "train_accuracy": 1.0,
+      "validation_loss": 0.39945635199546814,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 35,
+      "train_loss": 0.02593717411870048,
+      "train_accuracy": 1.0,
+      "validation_loss": 0.40350332856178284,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 36,
+      "train_loss": 0.02003758732406866,
+      "train_accuracy": 1.0,
+      "validation_loss": 0.4125038683414459,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 37,
+      "train_loss": 0.02029257414951211,
+      "train_accuracy": 1.0,
+      "validation_loss": 0.4279562532901764,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 38,
+      "train_loss": 0.017577937990427017,
+      "train_accuracy": 1.0,
+      "validation_loss": 0.42378243803977966,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 39,
+      "train_loss": 0.022805740879405113,
+      "train_accuracy": 1.0,
+      "validation_loss": 0.41419655084609985,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 40,
+      "train_loss": 0.017859791990901742,
+      "train_accuracy": 1.0,
+      "validation_loss": 0.4146401286125183,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 41,
+      "train_loss": 0.01218362423990454,
+      "train_accuracy": 1.0,
+      "validation_loss": 0.41491350531578064,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 42,
+      "train_loss": 0.012296079045959881,
+      "train_accuracy": 1.0,
+      "validation_loss": 0.4166955351829529,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 43,
+      "train_loss": 0.01815287328901745,
+      "train_accuracy": 1.0,
+      "validation_loss": 0.42869314551353455,
+      "validation_accuracy": 0.9111111164093018
+    },
+    {
+      "epoch": 44,
+      "train_loss": 0.013705790761326041,
+      "train_accuracy": 1.0,
+      "validation_loss": 0.4390244781970978,
+      "validation_accuracy": 0.9111111164093018
+    }
+  ],
+  "split_indices": {
+    "train": [
+      130,
+      136,
+      26,
+      211,
+      135,
+      176,
+      286,
+      149,
+      170,
+      195,
+      248,
+      266,
+      246,
+      110,
+      12,
+      60,
+      118,
+      29,
+      271,
+      268,
+      165,
+      112,
+      142,
+      265,
+      189,
+      214,
+      117,
+      89,
+      203,
+      194,
+      39,
+      239,
+      235,
+      19,
+      105,
+      217,
+      292,
+      221,
+      143,
+      262,
+      255,
+      78,
+      238,
+      70,
+      153,
+      119,
+      103,
+      240,
+      197,
+      92,
+      113,
+      224,
+      273,
+      59,
+      180,
+      101,
+      30,
+      129,
+      33,
+      174,
+      146,
+      296,
+      234,
+      109,
+      124,
+      242,
+      1,
+      295,
+      198,
+      13,
+      4,
+      32,
+      24,
+      145,
+      102,
+      144,
+      115,
+      199,
+      187,
+      47,
+      278,
+      183,
+      154,
+      182,
+      95,
+      81,
+      80,
+      251,
+      261,
+      17,
+      125,
+      82,
+      287,
+      160,
+      209,
+      243,
+      87,
+      72,
+      74,
+      223,
+      172,
+      123,
+      166,
+      257,
+      90,
+      205,
+      299,
+      230,
+      259,
+      291,
+      91,
+      161,
+      229,
+      61,
+      121,
+      114,
+      3,
+      120,
+      293,
+      128,
+      8,
+      6,
+      163,
+      276,
+      86,
+      15,
+      50,
+      79,
+      73,
+      64,
+      37,
+      71,
+      208,
+      0,
+      96,
+      94,
+      193,
+      207,
+      226,
+      186,
+      152,
+      139,
+      11,
+      173,
+      228,
+      122,
+      237,
+      76,
+      275,
+      31,
+      46,
+      281,
+      98,
+      184,
+      219,
+      100,
+      233,
+      131,
+      34,
+      88,
+      157,
+      137,
+      48,
+      168,
+      68,
+      263,
+      41,
+      83,
+      21,
+      45,
+      220,
+      258,
+      65,
+      167,
+      27,
+      126,
+      5,
+      294,
+      298,
+      44,
+      25,
+      269,
+      54,
+      190,
+      52,
+      215,
+      16,
+      159,
+      175,
+      264,
+      285,
+      254,
+      252,
+      213,
+      270,
+      150,
+      196,
+      158,
+      212,
+      99,
+      9,
+      206,
+      36,
+      67,
+      241,
+      210,
+      253,
+      204,
+      62,
+      283
+    ],
+    "validation": [
+      75,
+      22,
+      97,
+      277,
+      147,
+      10,
+      132,
+      290,
+      256,
+      156,
+      288,
+      141,
+      40,
+      222,
+      231,
+      279,
+      185,
+      247,
+      232,
+      63,
+      49,
+      249,
+      274,
+      18,
+      179,
+      108,
+      140,
+      53,
+      201,
+      42,
+      85,
+      244,
+      267,
+      58,
+      23,
+      250,
+      2,
+      51,
+      171,
+      151,
+      155,
+      164,
+      116,
+      77,
+      106
+    ],
+    "test": [
+      177,
+      282,
+      56,
+      84,
+      104,
+      148,
+      260,
+      127,
+      111,
+      188,
+      35,
+      216,
+      289,
+      284,
+      200,
+      57,
+      14,
+      192,
+      178,
+      202,
+      69,
+      245,
+      236,
+      169,
+      191,
+      297,
+      20,
+      133,
+      138,
+      43,
+      227,
+      107,
+      93,
+      272,
+      218,
+      134,
+      66,
+      181,
+      280,
+      162,
+      38,
+      28,
+      7,
+      55,
+      225
+    ]
+  },
+  "classification_report": {
+    "SUMMARY": {
+      "precision": 1.0,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.9230769230769231,
+      "support": 7.0
+    },
+    "COMPARISON": {
+      "precision": 0.8571428571428571,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.8571428571428571,
+      "support": 7.0
+    },
+    "METHODOLOGY": {
+      "precision": 0.8571428571428571,
+      "recall": 0.75,
+      "f1-score": 0.8,
+      "support": 8.0
+    },
+    "RESULTS": {
+      "precision": 0.7777777777777778,
+      "recall": 0.875,
+      "f1-score": 0.8235294117647058,
+      "support": 8.0
+    },
+    "LIMITATIONS": {
+      "precision": 0.7777777777777778,
+      "recall": 0.875,
+      "f1-score": 0.8235294117647058,
+      "support": 8.0
+    },
+    "DEFINITION": {
+      "precision": 0.8571428571428571,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.8571428571428571,
+      "support": 7.0
+    },
+    "accuracy": 0.8444444444444444,
+    "macro avg": {
+      "precision": 0.8544973544973544,
+      "recall": 0.8452380952380952,
+      "f1-score": 0.8474035768153413,
+      "support": 45.0
+    },
+    "weighted avg": {
+      "precision": 0.8511463844797179,
+      "recall": 0.8444444444444444,
+      "f1-score": 0.8452890899949723,
+      "support": 45.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      6,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      6,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      6,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      7,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      7,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      6
+    ]
+  ],
+  "confusion_matrix_order": [
+    "SUMMARY",
+    "COMPARISON",
+    "METHODOLOGY",
+    "RESULTS",
+    "LIMITATIONS",
+    "DEFINITION"
+  ],
+  "test_predictions": [
+    {
+      "text": "Did adding more training examples improve the score?",
+      "actual": "RESULTS",
+      "predicted": "LIMITATIONS",
+      "confidence": 0.4029926657676697
+    },
+    {
+      "text": "How is the term reproducibility used in this article?",
+      "actual": "DEFINITION",
+      "predicted": "DEFINITION",
+      "confidence": 0.9490253925323486
+    },
+    {
+      "text": "Where do the authors agree with the previous publication?",
+      "actual": "COMPARISON",
+      "predicted": "COMPARISON",
+      "confidence": 0.8209760785102844
+    },
+    {
+      "text": "How does the new estimator differ from the standard one?",
+      "actual": "COMPARISON",
+      "predicted": "COMPARISON",
+      "confidence": 0.8440622687339783
+    },
+    {
+      "text": "What procedure was followed to select participants?",
+      "actual": "METHODOLOGY",
+      "predicted": "METHODOLOGY",
+      "confidence": 0.9207562804222107
+    },
+    {
+      "text": "Describe the process used to verify annotation quality.",
+      "actual": "METHODOLOGY",
+      "predicted": "METHODOLOGY",
+      "confidence": 0.4139068126678467
+    },
+    {
+      "text": "How is calibration understood in this work?",
+      "actual": "DEFINITION",
+      "predicted": "METHODOLOGY",
+      "confidence": 0.8215753436088562
+    },
+    {
+      "text": "Which data augmentation techniques were applied?",
+      "actual": "METHODOLOGY",
+      "predicted": "METHODOLOGY",
+      "confidence": 0.6011805534362793
+    },
+    {
+      "text": "What was the process for labeling the dataset?",
+      "actual": "METHODOLOGY",
+      "predicted": "METHODOLOGY",
+      "confidence": 0.9672945141792297
+    },
+    {
+      "text": "What evidence supported the authors' central hypothesis?",
+      "actual": "RESULTS",
+      "predicted": "RESULTS",
+      "confidence": 0.7086477279663086
+    },
+    {
+      "text": "Explain the scope of this article in plain language.",
+      "actual": "SUMMARY",
+      "predicted": "DEFINITION",
+      "confidence": 0.5393948554992676
+    },
+    {
+      "text": "What aspects of the evaluation reduce confidence in generalization?",
+      "actual": "LIMITATIONS",
+      "predicted": "LIMITATIONS",
+      "confidence": 0.8906899690628052
+    },
+    {
+      "text": "What is the concept of invariant features?",
+      "actual": "DEFINITION",
+      "predicted": "DEFINITION",
+      "confidence": 0.99167799949646
+    },
+    {
+      "text": "What is a propensity score?",
+      "actual": "DEFINITION",
+      "predicted": "DEFINITION",
+      "confidence": 0.6865916848182678
+    },
+    {
+      "text": "What limitations did the authors identify?",
+      "actual": "LIMITATIONS",
+      "predicted": "LIMITATIONS",
+      "confidence": 0.9010345935821533
+    },
+    {
+      "text": "What are the similarities between these experiments?",
+      "actual": "COMPARISON",
+      "predicted": "COMPARISON",
+      "confidence": 0.973315954208374
+    },
+    {
+      "text": "How would you describe this study to a new reader?",
+      "actual": "SUMMARY",
+      "predicted": "SUMMARY",
+      "confidence": 0.9310804009437561
+    },
+    {
+      "text": "Did the proposed intervention produce the expected benefit?",
+      "actual": "RESULTS",
+      "predicted": "RESULTS",
+      "confidence": 0.8844344019889832
+    },
+    {
+      "text": "What did the authors find about the scaling behavior?",
+      "actual": "RESULTS",
+      "predicted": "RESULTS",
+      "confidence": 0.491478830575943
+    },
+    {
+      "text": "Where does the method fail to work reliably?",
+      "actual": "LIMITATIONS",
+      "predicted": "LIMITATIONS",
+      "confidence": 0.885591447353363
+    },
+    {
+      "text": "Contrast the reported failure cases of both systems.",
+      "actual": "COMPARISON",
+      "predicted": "LIMITATIONS",
+      "confidence": 0.6802921891212463
+    },
+    {
+      "text": "Which computational constraints restrict the system?",
+      "actual": "LIMITATIONS",
+      "predicted": "LIMITATIONS",
+      "confidence": 0.4036119282245636
+    },
+    {
+      "text": "What uncertainties remain about the reported effect?",
+      "actual": "LIMITATIONS",
+      "predicted": "RESULTS",
+      "confidence": 0.7624141573905945
+    },
+    {
+      "text": "Which factors were associated with increased performance?",
+      "actual": "RESULTS",
+      "predicted": "RESULTS",
+      "confidence": 0.872162938117981
+    },
+    {
+      "text": "What was the observed relationship between exposure and response?",
+      "actual": "RESULTS",
+      "predicted": "RESULTS",
+      "confidence": 0.6728320717811584
+    },
+    {
+      "text": "How do the authors define treatment compliance?",
+      "actual": "DEFINITION",
+      "predicted": "DEFINITION",
+      "confidence": 0.5776176452636719
+    },
+    {
+      "text": "Present the study's highlights in a compact form.",
+      "actual": "SUMMARY",
+      "predicted": "SUMMARY",
+      "confidence": 0.9086359739303589
+    },
+    {
+      "text": "How did the researchers choose the evaluation metrics?",
+      "actual": "METHODOLOGY",
+      "predicted": "RESULTS",
+      "confidence": 0.6982234716415405
+    },
+    {
+      "text": "Which loss function guided model training?",
+      "actual": "METHODOLOGY",
+      "predicted": "COMPARISON",
+      "confidence": 0.7293437123298645
+    },
+    {
+      "text": "What is the overall significance of the reported work?",
+      "actual": "SUMMARY",
+      "predicted": "SUMMARY",
+      "confidence": 0.9046702980995178
+    },
+    {
+      "text": "What is missing from the current experimental evidence?",
+      "actual": "LIMITATIONS",
+      "predicted": "LIMITATIONS",
+      "confidence": 0.9379149079322815
+    },
+    {
+      "text": "Explain the setup of the evaluation pipeline.",
+      "actual": "METHODOLOGY",
+      "predicted": "METHODOLOGY",
+      "confidence": 0.8870269060134888
+    },
+    {
+      "text": "How similar are the populations examined in these investigations?",
+      "actual": "COMPARISON",
+      "predicted": "COMPARISON",
+      "confidence": 0.9212173819541931
+    },
+    {
+      "text": "What does the paper mean by a control group?",
+      "actual": "DEFINITION",
+      "predicted": "DEFINITION",
+      "confidence": 0.8772224187850952
+    },
+    {
+      "text": "What constraints limit the method's applicability?",
+      "actual": "LIMITATIONS",
+      "predicted": "LIMITATIONS",
+      "confidence": 0.930829644203186
+    },
+    {
+      "text": "Describe the cross-validation design.",
+      "actual": "METHODOLOGY",
+      "predicted": "METHODOLOGY",
+      "confidence": 0.5678885579109192
+    },
+    {
+      "text": "How do the two surveys organize the same literature differently?",
+      "actual": "COMPARISON",
+      "predicted": "COMPARISON",
+      "confidence": 0.9991604089736938
+    },
+    {
+      "text": "What was the measured reduction in energy consumption?",
+      "actual": "RESULTS",
+      "predicted": "RESULTS",
+      "confidence": 0.5753199458122253
+    },
+    {
+      "text": "Explain what a surrogate objective is.",
+      "actual": "DEFINITION",
+      "predicted": "DEFINITION",
+      "confidence": 0.6553439497947693
+    },
+    {
+      "text": "Did the experiment confirm the predicted relationship?",
+      "actual": "RESULTS",
+      "predicted": "RESULTS",
+      "confidence": 0.959159791469574
+    },
+    {
+      "text": "Which ideas best represent the whole study?",
+      "actual": "SUMMARY",
+      "predicted": "SUMMARY",
+      "confidence": 0.5299262404441833
+    },
+    {
+      "text": "Give an executive overview of the research.",
+      "actual": "SUMMARY",
+      "predicted": "SUMMARY",
+      "confidence": 0.9840599298477173
+    },
+    {
+      "text": "Describe the big picture of this work.",
+      "actual": "SUMMARY",
+      "predicted": "SUMMARY",
+      "confidence": 0.9941062927246094
+    },
+    {
+      "text": "How does this method relate to the earlier baseline?",
+      "actual": "COMPARISON",
+      "predicted": "COMPARISON",
+      "confidence": 0.7721371650695801
+    },
+    {
+      "text": "What trade-offs undermine the usefulness of the proposal?",
+      "actual": "LIMITATIONS",
+      "predicted": "LIMITATIONS",
+      "confidence": 0.9710934162139893
+    }
+  ]
+}
