@@ -4,7 +4,7 @@ A research-paper assistant that retrieves evidence from uploaded PDFs and genera
 
 ## Demo
 
-**Deployed Streamlit URL:** _To be added after deployment._
+**Deployed Streamlit URL:** [Click Here](https://smart-research-paper-assistant.streamlit.app)
 
 Run the app locally today. Documents are managed in the sidebar; the main view focuses on questions, answers, and sources.
 
